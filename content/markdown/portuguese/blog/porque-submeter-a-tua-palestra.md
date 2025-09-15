@@ -4,11 +4,9 @@ title = 'Porque submeter a tua palestra?'
 description = "Compartilhando ideias e visões de porque participar de eventos como palestrante: opiniões de quem já fez isso antes."
 author = "Vinícius Gubiani Ferreira"
 categories = ["eventos"]
-
-image = "images/posts/01.png"
-
+image = "images/posts/04.png"
 url = "porque-submeter-a-tua-palestra"
-draft = true
+draft = false
 +++
 
 ## Tu deve estar pensando ...
