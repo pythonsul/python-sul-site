@@ -31,7 +31,40 @@
   "platinum": [],
   "diamond": [],
   "gold": [],
-  "silver": [],
-  "bronze": [],
-  "supporters": []
+  "silver": [
+    {
+      "name": "Avidity",
+      "url": "https://avidity.com.br/pt/",
+      "logo": "https://avidity.com.br/assets/images/logotype.svg",
+      "alt": {
+        "pt-br": "Logo da Avidity",
+        "en": "Avidity Group Logo",
+        "es": "Logo de Avidity Group"
+      }
+    }
+  ],
+  "bronze": [
+    {
+      "name": "Conta Aberta",
+      "url": "https://contaaberta.info/",
+      "logo": "https://contaaberta.info/img/logo4.png",
+      "alt": {
+        "pt-br": "Logo da Conta Aberta",
+        "en": "Conta Aberta Logo",
+        "es": "Logo de Conta Aberta"
+      }
+    }
+  ],
+  "supporters": [
+    {
+      "name": "PHPRS",
+      "url": "https://github.com/PHPRS",
+      "logo": "./images/phprs.jpg",
+      "alt": {
+        "pt-br": "Logo da PHPRS",
+        "en": "PHPRS Logo",
+        "es": "Logo de PHPRS"
+      }
+    }
+  ]
 }

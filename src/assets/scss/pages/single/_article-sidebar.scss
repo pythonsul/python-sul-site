@@ -1,11 +1,13 @@
 .article-sidebar {
   @include flex-column-center;
-  gap: $space-2;
+  width: 100%;
+  gap: $space-4;
   overflow: hidden;
+  background-color: var(--color-bg);
 
   @media (min-width: $breakpoint-md) {
     margin-top: $space-6;
-    padding-left: $space-6;
+    padding-inline: $space-2;
     padding-block: $space-10;
     gap: $space-6;
     border-left: 1px solid var(--color-border);
@@ -13,23 +15,26 @@
 
   .sidebar__section {
     width: 100%;
-    padding-bottom: $space-4;
-    padding-inline: $space-3;
-    transition: background-color 0.2s ease;
+    background-color: var(--color-surface, #fff);
+    border-radius: $radius-6;
+    padding: $space-4 $space-3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.25s ease, transform 0.2s ease;
 
     &:not(:last-child) {
-      border-bottom: 1px solid var(--color-border);
       margin-bottom: $space-2;
     }
 
     &:hover {
-      background-color: var(--color-accent-50);
+      background-color: var(--color-surface-hover, #f8f9fa);
+      transform: translateY(-2px);
     }
   }
 
   .sidebar__title {
-    font-weight: 600;
-    letter-spacing: 0.25px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
     color: var(--color-text);
     margin-bottom: $space-3;
     padding-bottom: $space-4;
@@ -41,7 +46,7 @@
     color: var(--color-text-secondary);
     line-height: 1.6;
     font-size: 0.9rem;
-    margin-bottom: $space-4;
+    margin-bottom: $space-3;
   }
 
   .sidebar__categories {

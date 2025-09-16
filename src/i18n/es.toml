@@ -77,3 +77,15 @@ other = "Modo claro"
 
 [read_more]
 other = "Seguir leyendo"
+
+[supporters_section_title]
+other = "Nuestros Apoyadores"
+
+[supporters_section_description]
+other = "Todos los grupos, comunidades, eventos e instituciones que apoyan nuestro evento."
+
+[sponsor_tier_silver]
+other = "Patrocinadores Silver"
+
+[sponsor_tier_bronze]
+other = "Patrocinadores Bronze"

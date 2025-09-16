@@ -92,7 +92,8 @@
 
   .sponsor-logo {
     width: $logo-size;
-    height: $logo-size;
+    height: auto;
+    aspect-ratio: 3/1;
   }
 }
 
