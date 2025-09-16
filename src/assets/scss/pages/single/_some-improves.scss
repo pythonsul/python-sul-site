@@ -1,0 +1,71 @@
+.article-content {
+  margin: 0 auto;
+
+  .post-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-text);
+
+    h2, h3 {
+      margin-top: $space-6;
+      margin-bottom: $space-3;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    p {
+      margin-bottom: $space-4;
+    }
+  }
+}
+
+/* Share buttons modernizados */
+.share-buttons {
+  margin-top: $space-8;
+  padding-top: $space-6;
+  border-top: 1px solid var(--color-border);
+
+  .share-buttons__label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: $space-3;
+    color: var(--color-text-secondary);
+  }
+
+  .share-buttons__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-3;
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: $space-2;
+      border-radius: $radius-7;
+      padding: $space-2 $space-4;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: background-color 0.25s ease, transform 0.15s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      &.linkedin:hover {
+        background-color: #0a66c2;
+        color: #fff;
+      }
+
+      &.facebook:hover {
+        background-color: #1877f2;
+        color: #fff;
+      }
+
+      &.copy:hover {
+        background-color: var(--color-accent);
+        color: #fff;
+      }
+    }
+  }
+}

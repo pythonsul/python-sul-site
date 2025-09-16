@@ -43,7 +43,7 @@
     .article-wrapper {
       @include grid(2, $space-6);
       grid-template-columns: 3fr 1fr;
-      padding: $space-8 $space-4;
+      padding: $space-8 0 0 $space-4;
       background-color: var(--color-single-post-bg);
       box-shadow: $box-shadow-md;
       border-radius: $radius-6;
@@ -52,7 +52,7 @@
       flex-direction: column;
 
       @media (min-width: $breakpoint-md) {
-        padding: $space-8 $space-8 $space-6;
+        padding: $space-8 0 0 $space-8;
         display: grid;
       }
     }
@@ -76,7 +76,7 @@
   .share-buttons {
     @include flex-column-start;
     gap: $space-4;
-    padding-bottom: 0;
+    padding-bottom: $space-6;
 
     &__label {
       font-weight: 500;
@@ -220,6 +220,7 @@
   line-height: 1.7;
   color: var(--color-text);
   text-align: left;
+  max-width: 70ch;
 
   @media (min-width: $breakpoint-md) {
     padding-block: $space-6;
@@ -346,6 +347,10 @@
 @import './single/article-sidebar';
 @import './single/related-posts';
 
+.post-content {
+  line-height: 1.75;
+}
+
 .post-content .custom-image-rounded {
 
   picture {
@@ -369,3 +374,5 @@
     display: none;
   }
 }
+
+@import './single/some-improves';

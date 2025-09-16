@@ -32,7 +32,8 @@
           <div class="article-meta">
             <span class="meta-item">
               {{ $author := .Params.author | default .Site.Params.defaultAuthor }}
-              {{ $avatar := printf "images/authors/%s.png" (lower (replace $author " " "-")) }}
+              {{ $avatar := .Params.avatar | default (printf "images/authors/%s.png" (lower (replace $author " " "-"))) }}
+
               <div class="meta__avatar">
                 {{/* Author Avatar */}}
                 {{ partial "core/image.html" (dict "src" $avatar "alt" $author "avatar" true) }}

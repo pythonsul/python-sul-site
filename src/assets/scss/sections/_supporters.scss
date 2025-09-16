@@ -1,0 +1,30 @@
+.supporters__logos {
+  @include flex-center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .supporter-logo {
+    @include flex-center;
+    width: 150px;
+    height: auto;
+    aspect-ratio: 3 / 1;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+.phprs {
+  background-color: $white;
+}

@@ -1,0 +1,22 @@
+{{ $supporters := .Site.Data.section.sponsors.supporters }}
+
+<section class="sponsors" id="sponsors">
+  <div class="section-container">
+    <header class="sponsors__header">
+      <h2 class="section-title">
+        {{ i18n "supporters_section_title" | safeHTML }}
+      </h2>
+      <p class="section-description">
+        {{ i18n "supporters_section_description" | safeHTML }}
+      </p>
+    </header>
+    <div class="supporters__logos">
+      {{ range $supporters }}
+        <div class="supporter-logo {{ .name | urlize }}">
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ .logo }}" alt="{{ .name }} Logo" />
+          </a>
+        </div>
+      {{ end }}
+  </div>
+</section>

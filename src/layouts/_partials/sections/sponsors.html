@@ -2,6 +2,8 @@
 {{ $currentLang := .Site.Language.Lang }}
 
 {{ $sponsorshipPlans := .Site.Data.event.sponsorship.plans }}
+{{ $silverTiers := .Site.Data.section.sponsors.silver }}
+{{ $bronzeTiers := .Site.Data.section.sponsors.bronze }}
 
 {{/* Loop through sponsors section for the current language */}}
 {{ range where .Site.Data.section.sponsors.meta "language" $currentLang }}
@@ -40,19 +42,31 @@
       {{/* Silver sponsors tier */}}
       <section class="sponsor__tier sponsors__tier--silver">
         <h3 class="sponsor__tier-title">
-          Patrocinador Prata
+          {{ i18n "sponsor_tier_silver" }}
         </h3>
         <ul class="sponsor__tier-logos sponsors__logos--silver">
-          <li class="sponsor-logo"></li>
+          {{ range $silverTiers }}
+            <li class="sponsor-logo {{ .name | urlize }}">
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ .logo }}" alt="{{ .name }} Logo" />
+              </a>
+            </li>
+          {{ end }}
         </ul>
       </section>
       {{/* Bronze sponsors tier */}}
       <section class="sponsor__tier sponsors__tier--bronze">
         <h3 class="sponsor__tier-title">
-          Patrocinador Bronze
+          {{ i18n "sponsor_tier_bronze" }}
         </h3>
         <ul class="sponsor__tier-logos sponsors__logos--bronze">
-          <li class="sponsor-logo"></li>
+          {{ range $bronzeTiers }}
+            <li class="sponsor-logo {{ .name | urlize }}">
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ .logo }}" alt="{{ .name }} Logo" />
+              </a>
+            </li>
+          {{ end }}
         </ul>
       </section>
     </div>

@@ -1,8 +1,9 @@
 +++
-date = '2025-09-10T23:45:10-03:00'
+date = '2025-09-15T23:45:10-03:00'
 title = 'Porque submeter a tua palestra?'
 description = "Compartilhando ideias e visões de porque participar de eventos como palestrante: opiniões de quem já fez isso antes."
 author = "Vinícius Gubiani Ferreira"
+avatar = "images/authors/vinicius-gubiani-ferreira.png"
 categories = ["eventos"]
 image = "images/posts/04.png"
 url = "porque-submeter-a-tua-palestra"
