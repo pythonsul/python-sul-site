@@ -9,15 +9,25 @@ draft = false
 +++
 
 ¡Bah, che! ¡Otro nombre de peso confirmado como keynote en la Python Sul 2025!  
-Estamos re contentos de anunciar que **Hisham H. Muhammad** es el **segundo keynote** del evento. ¡Poné la pava, que se viene algo bueno!
 
-Si alguna vez usaste Linux, seguramente te cruzaste con **htop**, ese visor de procesos interactivo que convierte la línea de comandos en algo casi poético. Fue creado por **Hisham H. Muhammad**, que también es el autor de **LuaRocks**, el gestor de paquetes para Lua, y uno de los fundadores de **GoboLinux**, una distro que redefine la estructura de directorios del sistema operativo.
+Estamos re contentos de anunciar que **Hisham H. Muhammad** es el **segundo
+keynote** del evento. ¡Poné la pava, que se viene algo bueno!
+
+Si alguna vez usaste Linux, seguramente te cruzaste con **htop**, ese visor de
+procesos interactivo que convierte la línea de comandos en algo casi poético.
+Fue creado por **Hisham H. Muhammad**, que también es el autor de **LuaRocks**,
+el gestor de paquetes para Lua, y uno de los fundadores de **GoboLinux**, una
+distro que redefine la estructura de directorios del sistema operativo.
 
 {{< image src="images/posts/hishamhm/porquechorasfirefox.png" alt="htop funcionando (casi un FirefoxOS)" >}}
 
 ## ¿Quién es Hisham H. Muhammad?
 
-Viviendo en Porto Alegre, en el estado de Rio Grande do Sul, Hisham es un apasionado del software libre. A lo largo de los años participó en varios proyectos e inspiró a mucha gente con sus charlas y aportes. En su sitio personal comparte parte de ese recorrido, además de publicar reflexiones sobre tecnología, cultura y sociedad.
+Viviendo en Porto Alegre, en el estado de Rio Grande do Sul, Hisham es un
+apasionado del software libre. A lo largo de los años participó en varios
+proyectos e inspiró a mucha gente con sus charlas y aportes. En su sitio
+personal comparte parte de ese recorrido, además de publicar reflexiones sobre
+tecnología, cultura y sociedad.
 
 {{< iframe src="https://www.youtube.com/embed/L25waVhy78o?si=Z91le2p516nTOgpl" title="Adding performance counters to htop" >}}
 
@@ -30,25 +40,36 @@ Viviendo en Porto Alegre, en el estado de Rio Grande do Sul, Hisham es un apasio
 
 ## Aportes y Reconocimiento
 
-Hisham es una presencia constante en conferencias de software libre como **FOSDEM**, **Linux Dev Conference** y **Lua Conf**, donde comparte experiencias y aprendizajes con la comunidad. Sus aportes son especialmente relevantes también en el ecosistema Linux, mostrando caminos a otros desarrolladores e impulsando discusiones sobre el tema en Brasil.  
+Hisham es una presencia constante en conferencias de software libre como
+**FOSDEM**, **Linux Dev Conference** y **Lua Conf**, donde comparte
+experiencias y aprendizajes con la comunidad. Sus aportes son especialmente
+relevantes también en el ecosistema Linux, mostrando caminos a otros
+desarrolladores e impulsando discusiones sobre el tema en Brasil.  
 
-En su sitio personal se pueden encontrar videos de varias de sus presentaciones, y acá compartimos algunos ejemplos destacados.
+En su sitio personal se pueden encontrar videos de varias de sus
+presentaciones, y acá compartimos algunos ejemplos destacados.
 
 ### Five Years of Teal: minimalism versus growth in language design
+
 {{< iframe src="https://www.youtube.com/embed/68F5Qs91izQ?si=mYF5hi2jwxkdL37J" title="Five Years of Teal: minimalism versus growth in language design" >}}
 
 ---
 
 ### Programación Orientada a Objetos en C puro: el caso de htop (pt-br)
+
 {{< iframe src="https://www.youtube.com/embed/wYGkjVa4NTU?si=Z9eItXYS6rKTcn6H" title="Programación Orientada a Objetos en C puro: el caso de htop" >}}
 
 ---
 
-## Más Allá del Código: Hisham, el Bajista
+## Más Allá del Código: Hisham, el Músico
 
 {{< gif src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2x0N28xMjJsdXJkaWYwMmIwanFmMzgweDllczk0N3NtYml1aXR1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3bztJvyzvSysgCPJSG/giphy.gif" alt="Ozzy Aprueba" width="300" >}}  
 
-Además de su carrera en el desarrollo de software, Hisham vive y respira música como bajista. Su pasión por el arte sonoro lo lleva a compartir composiciones y grabaciones originales en su canal de YouTube. Allí da vida a proyectos como **Color Bleed** y rinde homenaje a artistas legendarios como **Pink Floyd** y **Flaming Pie**.
+Además de su carrera en el desarrollo de software, Hisham vive y respira música
+como bajista, guitarrista y teclista. Su pasión por el arte sonoro lo lleva a
+compartir composiciones y grabaciones originales en su canal de YouTube. Allí
+da vida a proyectos como **Color Bleed** y rinde homenaje a artistas
+legendarios como **Pink Floyd** y **Flaming Pie**.
 
 ## Seguilo
 
