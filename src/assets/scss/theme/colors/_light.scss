@@ -6,6 +6,8 @@ $theme-light: (
   // Background and foreground
   bg: map-get($light, 600),
   fg: map-get($foreground, 600),
+  surface: map-get($light, 50),
+  surface-hover: map-get($light, 100),
 
   // Text colors
   text: map-get($slate, 700),

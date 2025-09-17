@@ -6,6 +6,8 @@ $theme-dark: (
   // Background and foreground
   bg: map-get($dark, 500),
   fg: map-get($dark-foreground, 600),
+  surface: map-get($dark, 600),
+  surface-hover: map-get($dark, 700),
 
   // Text colors
   text: map-get($dark-foreground, 600),

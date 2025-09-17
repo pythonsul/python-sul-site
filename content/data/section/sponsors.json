@@ -59,7 +59,7 @@
     {
       "name": "PHPRS",
       "url": "https://github.com/PHPRS",
-      "logo": "./images/phprs.jpg",
+      "logo": "https://sul.python.org.br/images/phprs.jpg",
       "alt": {
         "pt-br": "Logo da PHPRS",
         "en": "PHPRS Logo",
