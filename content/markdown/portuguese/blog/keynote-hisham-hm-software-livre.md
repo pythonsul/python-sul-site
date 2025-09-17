@@ -9,9 +9,9 @@ draft = false
 +++
 
 Bah, tchê! Mais um nome de peso confirmado como keynote da Python Sul 2025!
-Estamos bem faceros em anunciar que Hisham H. Muhammad é o **segundo keynote** do evento! Prepara o mate, que vem coisa boa por aí!
+Estamos bem faceiros em anunciar que Hisham H. Muhammad é o **segundo keynote** do evento! Prepara o mate, que vem coisa boa por aí!
 
-Se tu já usou Linux, provavelmente já cruzou com o **htop**, aquele visualizador de processos interativo que transforma a linha de comando em algo quase poético. Ele foi criado por **Hisham H. Muhammad**, que, além de contribuir com o htop, também é o autor principal do **LuaRocks**, o gerenciador de pacotes para Lua, e um dos fundadores do **GoboLinux**, uma distribuição que redefine a estrutura de diretórios do sistema operacional.
+Se tu já usou Linux, provavelmente já cruzou com o **htop**, aquele visualizador de processos interativo que transforma a linha de comando em algo quase poético. Ele foi criado por **Hisham H. Muhammad**, que também é o autor do **LuaRocks**, o gerenciador de pacotes para Lua, e um dos fundadores do **GoboLinux**, uma distribuição que redefine a estrutura de diretórios do sistema operacional.
  
 
 
@@ -19,7 +19,7 @@ Se tu já usou Linux, provavelmente já cruzou com o **htop**, aquele visualizad
 
 ## Quem é Hisham H. Muhammad?
 
-Vivendo atualmente em Porto Alegre, no Rio Grande do Sul, Hisham é um entusiasta do software livre e da programação funcional. Ele compartilha sua jornada e projetos em seu site pessoal, onde também mantém um blog com reflexões sobre tecnologia, cultura e sociedade.
+Morando em Porto Alegre, no Rio Grande do Sul, Hisham é apaixonado por software livre. Já participou de vários projetos e inspirou muita gente com suas palestras e contribuições. No seu site pessoal, ele divide um pouco dessa jornada, além de publicar reflexões sobre tecnologia, cultura e sociedade
 
 {{< iframe src="https://www.youtube.com/embed/L25waVhy78o?si=Z91le2p516nTOgpl" title="Adding performance counters to htop" >}}
 
@@ -32,7 +32,9 @@ Vivendo atualmente em Porto Alegre, no Rio Grande do Sul, Hisham é um entusiast
 
 ## Contribuições e Reconhecimento
 
-Hisham tem sido presença constante em conferências de software livre, como o **FOSDEM**, compartilhando suas experiências e aprendizados com a comunidade. Seu trabalho impactou o ecossistema Lua e inspirou desenvolvedores ao redor do mundo a contribuir com o software livre.
+Hisham tem sido presença constante em conferências de software livre, como o FOSDEM, a Linux Dev Conference e a Lua Conf, sempre compartilhando experiências e aprendizados com a comunidade. Suas contribuições são especialmente importantes também no ecossistema Linux, mostrando caminhos para outros desenvolvedores e fomentando discussões sobre o tema no Brasil.  
+
+No site pessoal de Hisham é possível acessar vídeos de várias de suas apresentações, e aqui vamos compartilhar alguns exemplos marcantes.
 
 ### Five Years of Teal: minimalism versus growth in language design
 {{< iframe src="https://www.youtube.com/embed/68F5Qs91izQ?si=mYF5hi2jwxkdL37J" title="Five Years of Teal: minimalism versus growth in language design" >}}
