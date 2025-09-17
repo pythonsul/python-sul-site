@@ -50,7 +50,7 @@ No site pessoal de Hisham é possível acessar vídeos de várias de suas aprese
 
 {{< gif src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2x0N28xMjJsdXJkaWYwMmIwanFmMzgweDllczk0N3NtYml1aXR1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3bztJvyzvSysgCPJSG/giphy.gif" alt="Ozzy Aprova" width="300" >}} 
 
-Além de sua carreira em desenvolvimento de software, Hisham vive e respira música como baixista. Sua paixão pela arte sonora o leva a compartilhar composições e gravações originais em seu canal no YouTube. Lá, ele dá vida a projetos como **Color Bleed** e presta homenagem a artistas lendários como **Fink Ployd** e **Flaming Pie**.
+Além de sua carreira em desenvolvimento de software, Hisham vive e respira música como baixista. Sua paixão pela arte sonora o leva a compartilhar composições e gravações originais em seu canal no YouTube. Lá, ele dá vida a projetos como **Color Bleed** e presta homenagem a artistas lendários como **Pink Floyd** e **Flaming Pie**.
 
 
 ## Acompanhe
