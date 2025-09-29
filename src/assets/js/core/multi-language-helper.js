@@ -41,7 +41,7 @@ async function goToTranslatedPage(lang) {
     const contentKey = getContentKey();
     const entry = [...content, ...pages].find(item => item.key === contentKey);
 
-    const langPath = getLangPath(lang);
+    const langPath = getLangPath(lang) || '/';
     const targetLink = entry?.link || `${langPath}/${window.location.hash}`;
 
     window.location.href = targetLink;

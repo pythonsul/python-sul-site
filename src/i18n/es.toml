@@ -1,4 +1,4 @@
-## Español (España) Translation File
+## Español (Argentina) Translation File
 
 [address]
 other = "Dirección"
@@ -92,3 +92,6 @@ other = "Patrocinadores Bronze"
 
 [keynotes_more_info]
 other = "Más detalles aquí"
+
+[register_now]
+other = "Regístrate ahora"

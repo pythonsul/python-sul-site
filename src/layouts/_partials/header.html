@@ -51,7 +51,7 @@
             </button>
             <div class="dropdown-menu language-switcher__menu" role="menu" aria-labelledby="language-toggle">
               {{ range $.Site.Home.AllTranslations }}
-                <button href="{{ .Permalink }}" class="language-switcher__item ghost" role="menuitem" data-event-listener="go-to-translated-page" data-lang="{{ .Language.Lang }}">
+                <button class="language-switcher__item ghost" role="menuitem" data-event-listener="go-to-translated-page" data-lang="{{ .Language.Lang }}">
                   {{ $flag := printf "svg/flags/%s.svg" .Language.Lang }}
                   {{ partial $flag }}
                   {{ .Language.LanguageName }}
