@@ -7,6 +7,7 @@ categories = ["novedades"]
 image = "images/posts/01.png"
 url = "ubl-live-cumbuca-dev-calentamiento-python-sul-2025"
 draft = false
+key = "ubl-live-cumbuca"
 +++
 
 # Próximo evento: Live de UBL – Calentamiento para Python Sul

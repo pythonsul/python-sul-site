@@ -7,6 +7,7 @@ categories = ["news"]
 image = "images/posts/01.png"
 url = "ubl-live-cumbuca-dev-warmup-python-sul-2025"
 draft = false
+key = "ubl-live-cumbuca"
 +++
 
 # Upcoming: UBL Live – Python Sul Warm-Up

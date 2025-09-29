@@ -8,13 +8,15 @@
 
 <main class="single">
   {{/* Page Header with Featured Image */}}
-  <section class="page-header">
+  <!--section class="page-header">
     {{ $image := .Params.image | default "/images/placeholder.jpg" }}
     {{ $imageAlt := .Title | plainify }}
     <div class="featured-image">
       {{ partial "core/image.html" (dict "src" $image "alt" $imageAlt) }}
     </div>
-  </section>
+  </section-->
+
+  <div class="hidden" data-content-key="{{ .Params.key }}"></div>
 
   <article class="article">
     <div class="article-wrapper">

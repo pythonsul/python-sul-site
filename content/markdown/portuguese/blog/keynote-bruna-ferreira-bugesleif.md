@@ -6,7 +6,8 @@ author = "Regis Tomkiel"
 categories = ["keynote"]
 image = "images/posts/bugelseif/2024.jpg"
 draft = false
-url = "keynote-bruna-ferreira-bug-esleif-python-sul-2025"
+url = "keynote-bruna-ferreira-bug-elseif-python-sul-2025"
+key = "keynote-bruna-ferreira"
 +++
 
 ## Mas bah, é alegria que fala?
@@ -58,13 +59,11 @@ Bruna inspira, fortalece e ajuda a comunidade a crescer, quebrando barreiras par
 Fique de olho nos próximos anúncios de programação e atividades.  
 Enquanto isso, já dá pra ir aquecendo os motores: visite o site da Bruna e confira os materiais que ela disponibiliza gratuitamente pra comunidade.
 
-👉 site: <https://bugelseif.github.io/website>  
-👉 github: [bugelseif.github.io](https://bugelseif.github.io)  
-👉 Youtube: <https://www.youtube.com/@bug_elseif>  
-👉 Twitch: <https://twitch.tv/bug_elseif>  
-👉 Linkedin: <https://www.linkedin.com/in/bugelseif/>  
-👉 Feministech: <https://github.com/feministech>  
-👉 CodeShow: <https://www.youtube.com/@codeshowbr> 
+- [Site](https://bugelseif.github.io/website/)  
+- [Youtube](https://www.youtube.com/@bug_elseif)
+- [Twitch](https://twitch.tv/bug_elseif)
+- [Feministech](https://github.com/feministech)
+- [CodeShow](https://www.youtube.com/@codeshowbr)
 
 {{< gif src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3hjODJocmowa2gwMXFvbXJraWk3NWVweGg2MXhkaG8zcDI5bGUzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ympx3QUzhNY3uclis/giphy.gif" alt="Ozzy Aprova" width="300" >}} 
 

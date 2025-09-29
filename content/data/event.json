@@ -50,5 +50,133 @@
   "cta": {
     "string": "header_cta",
     "link": "https://www.sympla.com.br/evento/python-sul-2025-porto-alegre/3092007"
+  },
+  "keynotes": {
+    "pt-br": {
+      "title": "Conheças as Keynotes de 2025",
+      "keynotes_list": [
+        {
+          "name": "Bruna Ferreira (bug_elseif)",
+          "bio": "Desenvolvedora de software e DevX na BotCity, criadora de conteúdo e voz ativa na comunidade Python.",
+          "photo": "images/keynotes/bruna-ferreira.png",
+          "link": "/keynote-bruna-ferreira-bug-elseif-python-sul-2025/",
+          "external_links": {
+            "site": "https://bugelseif.github.io/website",
+            "youtube": "https://www.youtube.com/@bug_elseif",
+            "instagram-alt": "https://www.instagram.com/bugelseif/",
+            "linkedin": "https://www.linkedin.com/in/brunaferreiratech/",
+            "github": "https://github.com/bugelseif"
+          }
+        },
+        {
+          "name": "Hisham H. Muhammad",
+          "bio": "Criador do htop, LuaRocks, GoboLinux. <br> Apaixonado por software livre, contribui com código e fala em eventos ao redor do mundo.",
+          "photo": "/images/keynotes/hisham-muhammad.png",
+          "link": "/keynote-hisham-hm-software-livre/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/hishamhm/",
+            "site": "https://hisham.hm/",
+            "github": "https://github.com/hishamhm",
+            "youtube": "http://youtube.com/user/loderunner"
+          }
+        },
+        {
+          "name": "Cesar Brod",
+          "bio": "Vovô nerd, escritor e CTO da Quaza Tecnologia. <br> Atua na área desde 1982 e ajudou a difundir Open Source e Linux no interior do Rio Grande do Sul.",
+          "photo": "images/keynotes/cesar-brod.png",
+          "link": "/keynote-cesar-brod/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/cesarbrod/",
+            "site": "https://scrum.brod.com.br/scrumbrod/sobre-o-autor-cesar-brod/",
+            "instagram-alt": "https://www.instagram.com/cesarbrod/",
+            "youtube": "https://www.youtube.com/user/cesarbrod/videos"
+          }
+        }
+      ]
+    },
+    "es": {
+      "title": "Conozca las Keynotes de 2025",
+      "keynotes_list": [
+        {
+          "name": "Bruna Ferreira (bug_elseif)",
+          "bio": "Desarrolladora de software y DevX en BotCity, creadora de contenido y voz activa en la comunidad Python.",
+          "photo": "images/keynotes/bruna-ferreira.png",
+          "link": "/es/keynote-bruna-ferreira-bug-elseif-python-sul-2025/",
+          "external_links": {
+            "site": "https://bugelseif.github.io/website",
+            "youtube": "https://www.youtube.com/@bug_elseif",
+            "instagram-alt": "https://www.instagram.com/bugelseif/",
+            "linkedin": "https://www.linkedin.com/in/brunaferreiratech/",
+            "github": "https://github.com/bugelseif"
+          }
+        },
+        {
+          "name": "Hisham H. Muhammad",
+          "bio": "Creador de htop, LuaRocks, GoboLinux. <br> Apasionado por el software libre, contribuye con código y da charlas en eventos alrededor del mundo.",
+          "photo": "/images/keynotes/hisham-muhammad.png",
+          "link": "/es/keynote-hisham-hm-software-libre/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/hishamhm/",
+            "site": "https://hisham.hm/",
+            "github": "https://github.com/hishamhm",
+            "youtube": "http://youtube.com/user/loderunner"
+          }
+        },
+        {
+          "name": "Cesar Brod",
+          "bio": "Abuelo nerd, escritor y CTO de Quaza Tecnologia. <br> Trabaja en el área desde 1982 y ayudó a difundir Open Source y Linux en el interior de Rio Grande do Sul.",
+          "photo": "images/keynotes/cesar-brod.png",
+          "link": "/es/keynote-cesar-brod/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/cesarbrod/",
+            "site": "https://scrum.brod.com.br/scrumbrod/sobre-o-autor-cesar-brod/",
+            "instagram-alt": "https://www.instagram.com/cesarbrod/",
+            "youtube": "https://www.youtube.com/user/cesarbrod/videos"
+          }
+        }
+      ]
+    },
+    "en": {
+      "title": "Meet the 2025 Keynotes",
+      "keynotes_list": [
+        {
+          "name": "Bruna Ferreira (bug_elseif)",
+          "bio": "Software developer and DevX at BotCity, content creator and active voice in the Python community.",
+          "photo": "images/keynotes/bruna-ferreira.png",
+          "link": "/en/keynote-bruna-ferreira-bug-elseif-python-sul-2025/",
+          "external_links": {
+            "site": "https://bugelseif.github.io/website",
+            "youtube": "https://www.youtube.com/@bug_elseif",
+            "instagram-alt": "https://www.instagram.com/bugelseif/",
+            "linkedin": "https://www.linkedin.com/in/brunaferreiratech/",
+            "github": "https://github.com/bugelseif"
+          }
+        },
+        {
+          "name": "Hisham H. Muhammad",
+          "bio": "Creator of htop, LuaRocks, GoboLinux. <br> Passionate about open source, he contributes code and speaks at events around the world.",
+          "photo": "/images/keynotes/hisham-muhammad.png",
+          "link": "/en/keynote-hisham-hm-free-software/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/hishamhm/",
+            "site": "https://hisham.hm/",
+            "github": "https://github.com/hishamhm",
+            "youtube": "http://youtube.com/user/loderunner"
+          }
+        },
+        {
+          "name": "Cesar Brod",
+          "bio": "Nerdy Grandpa, writer, and CTO at Quaza Tecnologia. <br> Active in the field since 1982, he helped spread Open Source and Linux throughout the countryside of Rio Grande do Sul.",
+          "photo": "images/keynotes/cesar-brod.png",
+          "link": "/en/keynote-cesar-brod/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/cesarbrod/",
+            "site": "https://scrum.brod.com.br/scrumbrod/sobre-o-autor-cesar-brod/",
+            "instagram-alt": "https://www.instagram.com/cesarbrod/",
+            "youtube": "https://www.youtube.com/user/cesarbrod/videos"
+          }
+        }
+      ]
+    }
   }
 }

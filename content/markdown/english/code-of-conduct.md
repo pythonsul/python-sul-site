@@ -2,6 +2,7 @@
 title = "Python Sul's Code of Conduct"
 image = "images/pages/cdc.jpg"
 date = 2025-08-05T03:00:00Z
+key = "cdc"
 +++
 
 The **Python Sul** conference is a friendly, inclusive, and harassment-free environment where everyone is welcome and where civility is compulsory.

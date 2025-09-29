@@ -89,3 +89,6 @@ other = "Sponsors Silver"
 
 [sponsor_tier_bronze]
 other = "Sponsors Bronze"
+
+[keynotes_more_info]
+other = "More details here"
