@@ -57,6 +57,26 @@
   ],
   "supporters": [
     {
+      "name": "Cumbuca Dev",
+      "url": "https://cumbuca.dev/",
+      "logo": "https://cumbuca.dev/wp-content/uploads/2024/08/site-logo.png?w=60&h=60",
+      "alt": {
+        "pt-br": "Logo da Cumbuca Dev",
+        "en": "Cumbuca Dev Logo",
+        "es": "Logo de Cumbuca Dev"
+      }
+    },
+    {
+      "name": "GDG - Porto Alegre",
+      "url": "https://gdg.community.dev/gdg-porto-alegre/",
+      "logo": "https://sul.python.org.br/images/gdg-poa.png",
+      "alt": {
+        "pt-br": "Logo do GDG - Porto Alegre",
+        "en": "Logo of GDG - Porto Alegre",
+        "es": "Logo de GDG - Porto Alegre"
+      }
+    },
+    {
       "name": "PHPRS",
       "url": "https://github.com/PHPRS",
       "logo": "https://sul.python.org.br/images/phprs.jpg",

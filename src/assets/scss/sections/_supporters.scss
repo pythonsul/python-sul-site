@@ -1,30 +1,35 @@
 .supporters__logos {
   @include flex-center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: $space-6;
 
   .supporter-logo {
     @include flex-center;
-    width: 150px;
-    height: auto;
-    aspect-ratio: 3 / 1;
     border: 1px solid var(--color-border);
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
+    overflow: hidden;
+
+    a {
+      padding: $space-2 $space-4;
+      height: 3rem + $space-2 * 2;
+    }
 
     &:hover {
       transform: scale(1.05);
     }
 
     img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
+      height: 3rem;
+    }
+
+    &.phprs {
+      background-color: $white;
+
+      img {
+        height: $space-4;
+      }
     }
   }
-}
-
-.phprs {
-  background-color: $white;
 }
