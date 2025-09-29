@@ -32,14 +32,14 @@
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_b4a4231405da52dc.jpg" type="image/jpeg" media="(min-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_35ee1fbae03643d4.jpg" type="image/jpeg" media="(min-width: 1024px)">
  
- &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_1df83c51f65bdf87.webp" type="image/webp" media="(min-width: 1024px)">
- &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_2aa954af3a9ccdbe.webp" type="image/webp" media="(max-width: 1024px)">
- &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_774fec98421935cf.webp" type="image/webp" media="(max-width: 800px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_f6f4f6094043ebda.webp" type="image/webp" media="(min-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_ab2410b13b55c2fd.webp" type="image/webp" media="(max-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_6aa1e35025a7673e.webp" type="image/webp" media="(max-width: 800px)">
  
  &lt;img
- src="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_b4a4231405da52dc.jpg"
+ src="https://sul.python.org.br/images/posts/porque-submeter/vinicius-ferreira_hu_35ee1fbae03643d4.jpg"
  alt="Vinícius Gubiani Ferreira"
  width="1400"
  height="1400"
