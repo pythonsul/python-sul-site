@@ -6,6 +6,7 @@ author = "Julio Biason"
 categories = ["keynote"]
 url = "keynote-hisham-hm-free-software"
 draft = false
+key = "keynote-hisham"
 +++
 
 Hey folks! Another big name is confirmed as a keynote speaker at Python Sul

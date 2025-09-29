@@ -7,6 +7,7 @@ categories = ["evento"]
 image = "images/posts/avidity/image.png"
 draft = false
 url = "patrocinadora-avidity-python-sul-2025"
+key = "avidity-sponsor"
 +++
 
 ## Conocé a Avidity

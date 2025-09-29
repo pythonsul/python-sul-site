@@ -14,10 +14,10 @@
 
 {{ with $image }}
   {{/* Generate resized images in WebP and JPEG formats */}}
-  {{ $webpSmall := .Resize (printf "%s webp q70" $sizeSmall) }}
-  {{ $webpMedium := .Resize (printf "%s webp q70" $sizeMedium) }}
-  {{ $webpLarge := .Resize (printf "%s webp q70" $sizeLarge) }}
-  {{ $jpegFull := .Resize (printf "%s jpg q80" $sizeFull) }}
+  {{ $webpSmall := .Resize (printf "%s webp q80" $sizeSmall) }}
+  {{ $webpMedium := .Resize (printf "%s webp q80" $sizeMedium) }}
+  {{ $webpLarge := .Resize (printf "%s webp q80" $sizeLarge) }}
+  {{ $jpegFull := .Resize (printf "%s jpg q90" $sizeFull) }}
 
   <figure class="{{ $className }}">
     <picture>

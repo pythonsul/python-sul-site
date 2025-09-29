@@ -7,6 +7,7 @@ categories = ["comunidade"]
 image = "images/posts/conta-aberta/image.png"
 draft = false
 url = "parceria-python-sul-2025-conta-aberta"
+key = "parceria-conta-aberta"
 +++
 
 

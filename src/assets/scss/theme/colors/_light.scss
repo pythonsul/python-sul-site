@@ -8,6 +8,7 @@ $theme-light: (
   fg: map-get($foreground, 600),
   surface: map-get($light, 50),
   surface-hover: map-get($light, 100),
+  bg-alt: #f6f5f4,
 
   // Text colors
   text: map-get($slate, 700),
@@ -17,6 +18,7 @@ $theme-light: (
   text-secondary-hover: map-get($foreground, 600),
   text-muted: map-get($slate, 500),
   text-on-accent: map-get($slate, 100),
+  text-strong: map-get($slate, 700),
 
   // Link colors
   link: map-get($blue, 600),
@@ -74,6 +76,15 @@ $theme-light: (
   details-text: $white,
   details-icon-bg: rgba($white, 0.2),
 
+  // Keynotes section
+  keynotes-bg: map-get($blue, 50),
+  keynotes-text: map-get($slate, 800),
+  keynote-card-bg: $white,
+  keynote-card-border: map-get($slate, 300),
+  keynote-card-text: map-get($slate, 800),
+  keynote-card-text-strong: map-get($slate, 900),
+  keynote-card-text-muted: map-get($slate, 500),
+
   // Input fields
   input-bg: $white,
   input-border: map-get($slate, 300),
@@ -125,6 +136,8 @@ $theme-light: (
   // Code blocks
   code-bg: rgba(map-get($slate, 800), 0.05),
   code-text: map-get($slate, 200),
+
+  border-subtle: #d3d7db,
 );
 
 $buttons-light: (

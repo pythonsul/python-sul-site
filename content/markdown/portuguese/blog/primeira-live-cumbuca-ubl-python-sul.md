@@ -7,6 +7,7 @@ categories = ["novidades"]
 image = "images/posts/01.png"
 url = "primeira-live-ubl-cumbuca-dev-aquece-python-sul-2025"
 draft = false
+key = "ubl-live-cumbuca"
 +++
 
 # Vem aí: Live da UBL – Aquece Python Sul

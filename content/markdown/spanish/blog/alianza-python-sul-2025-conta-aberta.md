@@ -7,6 +7,7 @@ categories = ["comunidad"]
 image = "images/posts/conta-aberta/image.png"
 draft = false
 url = "alianza-python-sul-2025-conta-aberta"
+key = "parceria-conta-aberta"
 +++
 
 # Python Sul 2025 + Conta Aberta: la transparencia como prioridad

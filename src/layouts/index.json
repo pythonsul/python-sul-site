@@ -20,6 +20,7 @@
 
 {{- range where site.RegularPages "Params.draft" "ne" true -}}
   {{- $contents = $contents | append (dict
+    "key"        .Params.key
     "title"       (.Title | markdownify | plainify | htmlUnescape)
     "description" (.Description | markdownify | plainify | htmlUnescape)
     "language"    (.Site.Language.Lang | markdownify | plainify | htmlUnescape)
@@ -109,6 +110,7 @@
 {{- range .Site.Pages -}}
   {{- if and (isset .Params "draft") (not .Params.draft) -}}
     {{- $pageItem := dict
+      "key"         .Params.key
       "title"       (.Title | markdownify | plainify | htmlUnescape)
       "description" (.Description | markdownify | plainify | htmlUnescape)
       "language"    (.Site.Language.Lang | markdownify | plainify | htmlUnescape)

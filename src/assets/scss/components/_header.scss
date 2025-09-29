@@ -354,4 +354,8 @@
       color: var(--color-text-hover, var(--color-text));
     }
   }
+
+  .language-switcher__item {
+    justify-content: flex-start;
+  }
 }

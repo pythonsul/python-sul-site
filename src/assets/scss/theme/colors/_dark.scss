@@ -8,6 +8,7 @@ $theme-dark: (
   fg: map-get($dark-foreground, 600),
   surface: map-get($dark, 600),
   surface-hover: map-get($dark, 700),
+  bg-alt: #2a2a2a,
 
   // Text colors
   text: map-get($dark-foreground, 600),
@@ -17,6 +18,7 @@ $theme-dark: (
   text-secondary-hover: map-get($dark, 600),
   text-muted: map-get($slate, 400),
   text-on-accent: map-get($slate, 100),
+  text-strong: map-get($slate, 100),
 
   // Link colors
   link: map-get($dark-foreground, 600),
@@ -26,6 +28,7 @@ $theme-dark: (
 
   // Borders and shadows
   border: map-get($slate, 600),
+  border-muted: map-get($slate, 700),
   shadow: 0 2px 4px rgba(0, 0, 0, 0.6),
   shadow-rgba: rgba(map-get($slate, 100), 0.2),
 
@@ -62,6 +65,15 @@ $theme-dark: (
   details-title: $white,
   details-text: $white,
   details-icon-bg: rgba($white, 0.2),
+
+  // Keynotes section
+  keynotes-bg: map-get($dark, 600),
+  keynotes-text: map-get($slate, 100),
+  keynote-card-bg: map-get($dark, 700),
+  keynote-card-border: map-get($slate, 700),
+  keynote-card-text: map-get($slate, 100),
+  keynote-card-text-strong: map-get($slate, 300),
+  keynote-card-text-muted: map-get($slate, 500),
 
   // Input fields
   input-bg: map-get($dark, 700),
@@ -120,6 +132,12 @@ $theme-dark: (
   single-post-separator: map-get($slate, 300),
   single-post-header-bg: map-get($blue, 800),
   single-post-header-text: map-get($slate, 100),
+
+  // Code blocks
+  code-bg: rgba(map-get($slate, 900), 0.2),
+  code-text: map-get($slate, 200),
+
+  border-subtle: #3a3f44,
 );
 
 $buttons-dark: (

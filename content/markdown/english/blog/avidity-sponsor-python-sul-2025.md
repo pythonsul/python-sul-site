@@ -7,6 +7,7 @@ categories = ["event"]
 image = "images/posts/avidity/image.png"
 draft = false
 url = "avidity-sponsor-python-sul-2025"
+key = "avidity-sponsor"
 +++
 
 

@@ -2,6 +2,7 @@
 title = "Código de Conduta"
 image = "images/pages/cdc.jpg"
 date = 2025-08-05T03:00:00Z
+key = "cdc"
 +++
 
 A conferência **Python Sul** é um ambiente amistoso, de boa convivência, inclusivo e livre de intimidação, onde todas as pessoas são bem-vindas e a civilidade é exigida.
