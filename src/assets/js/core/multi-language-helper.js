@@ -42,7 +42,7 @@ async function goToTranslatedPage(lang) {
     const entry = [...content, ...pages].find(item => item.key === contentKey);
 
     const langPath = getLangPath(lang) || '/';
-    const targetLink = entry?.link || `${langPath}/${window.location.hash}`;
+    const targetLink = entry?.link || `${langPath}${window.location.hash}`;
 
     window.location.href = targetLink;
   } catch (error) {
