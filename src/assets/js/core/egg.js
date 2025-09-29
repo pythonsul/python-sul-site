@@ -1,7 +1,7 @@
 /**
  * Fun Console Easter Egg: Friendly message with a hint to the repository.
  */
-const DEFAULT_REPO_URL = 'https://github.com/tomkiel/adwaita-site';
+const DEFAULT_REPO_URL = 'https://github.com/pythonsul/python-sul-site';
 const repositoryElement = document.getElementById('repository-url');
 const repositoryUrl = repositoryElement?.getAttribute('href') || DEFAULT_REPO_URL;
 
