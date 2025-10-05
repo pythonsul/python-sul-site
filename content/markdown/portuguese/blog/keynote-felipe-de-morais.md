@@ -27,7 +27,7 @@ Co-fundador da AfroPython, Felipe defende a diversidade e inclusão na tecnologi
 
 Felipe é um resolvedor de problemas, além de ser um grande engajador da comunidade Python (e da TI) no Brasil. 
 
-Nascido no RJ, mas há algum tempo já residindo em Porto Alegre com a esposa e seus dois gatos, iniciou na área de direito, mas sentiu que não era o que queria. Na faculdade conseguiu um estágio em uma das maiores empresas do Brasil, onde conheceu Python/Django, e posteriormente passou a frequentar eventos locais e aprender sobre open source.
+Nascido no RJ, e morando em Porto Alegre há mais de 10 anos. Pai da Paçoca 🐶, faixa roxa de Jiu Jitsu 🥋. Considerou cursar direito para o lutar contra injustiças. Mas decidiu seguir pela tecnologia, e conseguiu um estágio em algumas das maiores empresas do Brasil, onde conheceu Python/Django, e posteriormente passou a frequentar eventos locais e aprender sobre open source.
 
 Vendo que as mulheres eram um grupo sub-representado na TI, passou a se engajar com eventos focados para mulheres como Django Girls contribuindo com sua experiência. Mesmo dessa forma percebia que ainda assim não era a diversidade e inclusão que gostaria, o que o levou a fundar o AfroPython.
 
