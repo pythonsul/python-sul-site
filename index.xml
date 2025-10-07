@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Sul 2025 - Porto Alegre</title><link>https://sul.python.org.br/</link><description>Recent content on Python Sul 2025 - Porto Alegre</description><generator>Hugo</generator><language>pt-BR</language><lastBuildDate>Fri, 26 Sep 2025 19:00:00 +0000</lastBuildDate><atom:link href="https://sul.python.org.br/index.xml" rel="self" type="application/rss+xml"/><item><title>Cesar Brod: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-cesar-brod/</guid><description>&lt;p>Bah, tchê! Estamos muito felizes em anunciar o &lt;strong>terceiro keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Cesar Brod&lt;/strong>!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Sul 2025 - Porto Alegre</title><link>https://sul.python.org.br/</link><description>Recent content on Python Sul 2025 - Porto Alegre</description><generator>Hugo</generator><language>pt-BR</language><lastBuildDate>Tue, 07 Oct 2025 11:00:00 +0000</lastBuildDate><atom:link href="https://sul.python.org.br/index.xml" rel="self" type="application/rss+xml"/><item><title>Felipe de Morais: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-felipe-de-morais/</link><pubDate>Tue, 07 Oct 2025 11:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-felipe-de-morais/</guid><description>&lt;p>Bah, tchê! Pra fechar com chave de ouro o anúncio dos keynotes da Python Sul 2025, temos o prazer enorme de confirmar &lt;strong>Felipe de Morais&lt;/strong> como nosso &lt;strong>quarto keynote&lt;/strong>!&lt;/p>
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ &lt;figure class="">
+ &lt;picture>
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_8839d200448ebbbd.webp" type="image/webp" media="(min-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9e0b5eda0d17bf96.webp" type="image/webp" media="(max-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_3e6d67c965703fce.webp" type="image/webp" media="(max-width: 800px)">
+ 
+ &lt;img
+ src="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg"
+ alt="Felipe de Morais"
+ width="1400"
+ height="933"
+ loading="lazy"
+ decoding="async"
+ />
+ &lt;/picture>
+ 
+ 
+ &lt;figcaption>CC: Felipe de Morais&lt;/figcaption>
+ 
+ &lt;/figure>
+
+
+
+&lt;p>Reconhecido pela sua trajetória inspiradora e pela baita contribuição à comunidade Python, o Felipe é referência quando o assunto é frameworks web, comunidade e inclusão. E não é por menos, o guri coleciona prêmios como:&lt;/p></description></item><item><title>Cesar Brod: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-cesar-brod/</guid><description>&lt;p>Bah, tchê! Estamos muito felizes em anunciar o &lt;strong>terceiro keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Cesar Brod&lt;/strong>!&lt;/p>
 &lt;p>Cesar une experiência técnica, paixão por software livre e compromisso com a comunidade. Prepara o mate, que tem história e inspiração vindo por aí!&lt;/p>
 &lt;p>Cesar é avô, nerd, escritor e CTO da Quaza Tecnologia. Atua na área de informática desde 1982, com grande parte de sua formação profissional nos &lt;strong>Estados Unidos, Canadá e França&lt;/strong>. Começou a trabalhar com &lt;strong>Linux em 1993&lt;/strong> e, desde 1997, desenvolve através da &lt;strong>BrodTec&lt;/strong> serviços de consultoria, gestão de projetos e criação de modelos de negócios baseados em softwares de código aberto.&lt;/p></description></item><item><title>Hisham H. Muhammad: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-hisham-hm-software-livre/</link><pubDate>Tue, 16 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-hisham-hm-software-livre/</guid><description>&lt;p>Bah, tchê! Mais um nome de peso confirmado como keynote da Python Sul 2025!&lt;/p>
 &lt;p>Estamos bem faceiros em anunciar que Hisham H. Muhammad é o &lt;strong>segundo keynote&lt;/strong>
@@ -78,14 +131,7 @@ Agora qualquer pessoa pode acompanhar de perto a saúde financeira do evento dir
 &lt;p>O &lt;strong>Conta Aberta&lt;/strong> é um projeto dedicado a fortalecer a transparência pública e comunitária.&lt;br>
 Entre seus principais pontos estão:&lt;/p></description></item><item><title>Conheça a patrocinadora Avidity: inovação, equipe multidisciplinar e alcance internacional</title><link>https://sul.python.org.br/patrocinadora-avidity-python-sul-2025/</link><pubDate>Tue, 09 Sep 2025 03:00:00 +0000</pubDate><guid>https://sul.python.org.br/patrocinadora-avidity-python-sul-2025/</guid><description>&lt;h2 id="conheça-a-avidity">Conheça a Avidity&lt;/h2>
 &lt;p>Estamos muito animados em anunciar que a &lt;strong>Avidity&lt;/strong> é uma das patrocinadoras da Python Sul 2025! A Avidity é uma empresa sueco-brasileira-alemã especializada em desenvolvimento de software. Desde 2012, ela atua no mercado europeu ajudando empresas de diferentes setores a criar soluções tecnológicas robustas e inovadoras.&lt;/p>
-&lt;p>O time da Avidity é diverso e multitecnológico, com profissionais que trabalham com desenvolvimento, DevOps, operações em nuvem, integração e muitas outras áreas estratégicas. Para completar, a empresa atende empresas de software, agências digitais, instituições financeiras e plataformas de ensino.&lt;/p></description></item><item><title>Felipe de Morais: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/felipe-de-morais/</link><pubDate>Fri, 05 Sep 2025 21:00:00 +0000</pubDate><guid>https://sul.python.org.br/felipe-de-morais/</guid><description>&lt;p>E para fechar o anúncio de keynotes, temos o prazer de anunciar o &lt;strong>quarto keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Felipe de Morais&lt;/strong>!&lt;/p>
-&lt;p>Reconhecido pela expertise em frameworks web Python, sua dedicação à comunidade lhe rendeu prêmios como:&lt;/p>
-&lt;ul>
-&lt;li>Dornelles treméa da APyB;&lt;/li>
-&lt;li>Community Service Award da PSF;&lt;/li>
-&lt;li>Fellow 2025/Q1 da PSF;&lt;/li>
-&lt;/ul>
-&lt;p>Co-fundador da AfroPython, Felipe defende a diversidade e inclusão na tecnologia, criando oportunidades para grupos sub-representados. Além disso também é professor e conhecido como FeliPython pelas contribuições com a comunidade Python.&lt;/p></description></item><item><title>Vem aí: Live da UBL com Cumbuca Dev, um aquece para Python Sul 2025</title><link>https://sul.python.org.br/primeira-live-ubl-cumbuca-dev-aquece-python-sul-2025/</link><pubDate>Mon, 01 Sep 2025 13:56:48 -0300</pubDate><guid>https://sul.python.org.br/primeira-live-ubl-cumbuca-dev-aquece-python-sul-2025/</guid><description>&lt;h1 id="vem-aí-live-da-ubl--aquece-python-sul">Vem aí: Live da UBL – Aquece Python Sul&lt;/h1>
+&lt;p>O time da Avidity é diverso e multitecnológico, com profissionais que trabalham com desenvolvimento, DevOps, operações em nuvem, integração e muitas outras áreas estratégicas. Para completar, a empresa atende empresas de software, agências digitais, instituições financeiras e plataformas de ensino.&lt;/p></description></item><item><title>Vem aí: Live da UBL com Cumbuca Dev, um aquece para Python Sul 2025</title><link>https://sul.python.org.br/primeira-live-ubl-cumbuca-dev-aquece-python-sul-2025/</link><pubDate>Mon, 01 Sep 2025 13:56:48 -0300</pubDate><guid>https://sul.python.org.br/primeira-live-ubl-cumbuca-dev-aquece-python-sul-2025/</guid><description>&lt;h1 id="vem-aí-live-da-ubl--aquece-python-sul">Vem aí: Live da UBL – Aquece Python Sul&lt;/h1>
 &lt;p>Estamos &lt;strong>muito empolgados&lt;/strong> em anunciar a próxima live da &lt;strong>Universidade Brasileira Livre (UBL)&lt;/strong> na Twitch!&lt;/p>
 &lt;p>O encontro será um &lt;strong>esquenta para a Python Sul 2025&lt;/strong>, trazendo histórias, experiências e reflexões sobre comunidade, tecnologia e inclusão.&lt;/p>
 &lt;hr>

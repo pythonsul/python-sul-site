@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keynote on Python Sul 2025 - Porto Alegre</title><link>https://sul.python.org.br/categories/keynote/</link><description>Recent content in Keynote on Python Sul 2025 - Porto Alegre</description><generator>Hugo</generator><language>pt-BR</language><lastBuildDate>Fri, 26 Sep 2025 19:00:00 +0000</lastBuildDate><atom:link href="https://sul.python.org.br/categories/keynote/index.xml" rel="self" type="application/rss+xml"/><item><title>Cesar Brod: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-cesar-brod/</guid><description>&lt;p>Bah, tchê! Estamos muito felizes em anunciar o &lt;strong>terceiro keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Cesar Brod&lt;/strong>!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keynote on Python Sul 2025 - Porto Alegre</title><link>https://sul.python.org.br/categories/keynote/</link><description>Recent content in Keynote on Python Sul 2025 - Porto Alegre</description><generator>Hugo</generator><language>pt-BR</language><lastBuildDate>Tue, 07 Oct 2025 11:00:00 +0000</lastBuildDate><atom:link href="https://sul.python.org.br/categories/keynote/index.xml" rel="self" type="application/rss+xml"/><item><title>Felipe de Morais: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-felipe-de-morais/</link><pubDate>Tue, 07 Oct 2025 11:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-felipe-de-morais/</guid><description>&lt;p>Bah, tchê! Pra fechar com chave de ouro o anúncio dos keynotes da Python Sul 2025, temos o prazer enorme de confirmar &lt;strong>Felipe de Morais&lt;/strong> como nosso &lt;strong>quarto keynote&lt;/strong>!&lt;/p>
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ &lt;figure class="">
+ &lt;picture>
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_8839d200448ebbbd.webp" type="image/webp" media="(min-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9e0b5eda0d17bf96.webp" type="image/webp" media="(max-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_3e6d67c965703fce.webp" type="image/webp" media="(max-width: 800px)">
+ 
+ &lt;img
+ src="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg"
+ alt="Felipe de Morais"
+ width="1400"
+ height="933"
+ loading="lazy"
+ decoding="async"
+ />
+ &lt;/picture>
+ 
+ 
+ &lt;figcaption>CC: Felipe de Morais&lt;/figcaption>
+ 
+ &lt;/figure>
+
+
+
+&lt;p>Reconhecido pela sua trajetória inspiradora e pela baita contribuição à comunidade Python, o Felipe é referência quando o assunto é frameworks web, comunidade e inclusão. E não é por menos, o guri coleciona prêmios como:&lt;/p></description></item><item><title>Cesar Brod: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-cesar-brod/</guid><description>&lt;p>Bah, tchê! Estamos muito felizes em anunciar o &lt;strong>terceiro keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Cesar Brod&lt;/strong>!&lt;/p>
 &lt;p>Cesar une experiência técnica, paixão por software livre e compromisso com a comunidade. Prepara o mate, que tem história e inspiração vindo por aí!&lt;/p>
 &lt;p>Cesar é avô, nerd, escritor e CTO da Quaza Tecnologia. Atua na área de informática desde 1982, com grande parte de sua formação profissional nos &lt;strong>Estados Unidos, Canadá e França&lt;/strong>. Começou a trabalhar com &lt;strong>Linux em 1993&lt;/strong> e, desde 1997, desenvolve através da &lt;strong>BrodTec&lt;/strong> serviços de consultoria, gestão de projetos e criação de modelos de negócios baseados em softwares de código aberto.&lt;/p></description></item><item><title>Hisham H. Muhammad: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/keynote-hisham-hm-software-livre/</link><pubDate>Tue, 16 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-hisham-hm-software-livre/</guid><description>&lt;p>Bah, tchê! Mais um nome de peso confirmado como keynote da Python Sul 2025!&lt;/p>
 &lt;p>Estamos bem faceiros em anunciar que Hisham H. Muhammad é o &lt;strong>segundo keynote&lt;/strong>
@@ -8,14 +61,7 @@ visualizador de processos interativo que transforma a linha de comando em algo
 quase poético. Ele foi criado por &lt;strong>Hisham H. Muhammad&lt;/strong>, que também é o autor
 do &lt;strong>LuaRocks&lt;/strong>, o gerenciador de pacotes para Lua, e um dos fundadores do
 &lt;strong>GoboLinux&lt;/strong>, uma distribuição que redefine a estrutura de diretórios do
-sistema operacional.&lt;/p></description></item><item><title>Felipe de Morais: keynote confirmado na Python Sul 2025</title><link>https://sul.python.org.br/felipe-de-morais/</link><pubDate>Fri, 05 Sep 2025 21:00:00 +0000</pubDate><guid>https://sul.python.org.br/felipe-de-morais/</guid><description>&lt;p>E para fechar o anúncio de keynotes, temos o prazer de anunciar o &lt;strong>quarto keynote confirmado&lt;/strong> da Python Sul 2025: &lt;strong>Felipe de Morais&lt;/strong>!&lt;/p>
-&lt;p>Reconhecido pela expertise em frameworks web Python, sua dedicação à comunidade lhe rendeu prêmios como:&lt;/p>
-&lt;ul>
-&lt;li>Dornelles treméa da APyB;&lt;/li>
-&lt;li>Community Service Award da PSF;&lt;/li>
-&lt;li>Fellow 2025/Q1 da PSF;&lt;/li>
-&lt;/ul>
-&lt;p>Co-fundador da AfroPython, Felipe defende a diversidade e inclusão na tecnologia, criando oportunidades para grupos sub-representados. Além disso também é professor e conhecido como FeliPython pelas contribuições com a comunidade Python.&lt;/p></description></item><item><title>Bruna Ferreira (bug_elseif) será keynote da Python Sul 2025</title><link>https://sul.python.org.br/keynote-bruna-ferreira-bug-elseif-python-sul-2025/</link><pubDate>Tue, 26 Aug 2025 03:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-bruna-ferreira-bug-elseif-python-sul-2025/</guid><description>&lt;h2 id="mas-bah-é-alegria-que-fala">Mas bah, é alegria que fala?&lt;/h2>
+sistema operacional.&lt;/p></description></item><item><title>Bruna Ferreira (bug_elseif) será keynote da Python Sul 2025</title><link>https://sul.python.org.br/keynote-bruna-ferreira-bug-elseif-python-sul-2025/</link><pubDate>Tue, 26 Aug 2025 03:00:00 +0000</pubDate><guid>https://sul.python.org.br/keynote-bruna-ferreira-bug-elseif-python-sul-2025/</guid><description>&lt;h2 id="mas-bah-é-alegria-que-fala">Mas bah, é alegria que fala?&lt;/h2>
 &lt;p>Já temos a primeira keynote confirmada e é ninguém menos que a incrível e talentosa Bruna Ferreira!&lt;br>
 &lt;strong>PS&lt;/strong>: É bem capaz que tu conheça ela mais pelo nome &lt;strong>bug_elseif&lt;/strong>, né, vivente?&lt;/p>
  
