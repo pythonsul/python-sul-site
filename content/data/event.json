@@ -91,6 +91,17 @@
             "instagram-alt": "https://www.instagram.com/cesarbrod/",
             "youtube": "https://www.youtube.com/user/cesarbrod/videos"
           }
+        },
+        {
+          "name": "Felipe de Morais",
+          "bio": "Co-fundador da AfroPython, Felipe defende a diversidade e inclusão na tecnologia, criando oportunidades para grupos sub-representados",
+          "photo": "images/keynotes/felipe-de-morais.jpg",
+          "link": "keynote-felipe-de-morais/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/felipe-de-morais/",
+            "site": "https://felipedemorais.com.br/",
+            "github": "https://github.com/lipemorais"
+          }
         }
       ]
     },
@@ -133,6 +144,17 @@
             "instagram-alt": "https://www.instagram.com/cesarbrod/",
             "youtube": "https://www.youtube.com/user/cesarbrod/videos"
           }
+        },
+        {
+          "name": "Felipe de Morais",
+          "bio": "Cofundador de AfroPython, Felipe defiende la diversidad y la inclusión en la tecnología, creando oportunidades para grupos subrepresentados.",
+          "photo": "images/keynotes/felipe-de-morais.jpg",
+          "link": "/es/keynote-felipe-de-morais/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/felipe-de-morais/",
+            "site": "https://felipedemorais.com.br/",
+            "github": "https://github.com/lipemorais"
+          }
         }
       ]
     },
@@ -174,6 +196,17 @@
             "site": "https://scrum.brod.com.br/scrumbrod/sobre-o-autor-cesar-brod/",
             "instagram-alt": "https://www.instagram.com/cesarbrod/",
             "youtube": "https://www.youtube.com/user/cesarbrod/videos"
+          }
+        },
+        {
+          "name": "Felipe de Morais",
+          "bio": "Co-founder of AfroPython, Felipe advocates for diversity and inclusion in technology, creating opportunities for underrepresented groups.",
+          "photo": "images/keynotes/felipe-de-morais.jpg",
+          "link": "keynote-felipe-de-morais/",
+          "external_links": {
+            "linkedin": "https://www.linkedin.com/in/felipe-de-morais/",
+            "site": "https://felipedemorais.com.br/",
+            "github": "https://github.com/lipemorais"
           }
         }
       ]
