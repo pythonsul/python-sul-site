@@ -77,6 +77,16 @@
       }
     },
     {
+      "name": "Canal Roveeb",
+      "url": "https://roveeb.com/",
+      "logo": "https://sul.python.org.br/images/logo-roveeb.png",
+      "alt": {
+        "pt-br": "Logo do Canal Roveeb - Lajeado - RS",
+        "en": "Logo of Canal Roveeb - Lajeado - RS",
+        "es": "Logo de Canal Roveeb - Lajeado - RS"
+      }
+    },
+    {
       "name": "PHPRS",
       "url": "https://github.com/PHPRS",
       "logo": "https://sul.python.org.br/images/phprs.jpg",
