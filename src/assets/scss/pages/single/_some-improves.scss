@@ -1,71 +1,33 @@
 .article-content {
   margin: 0 auto;
+  width: 100%;
 
   .post-content {
     font-size: 1.05rem;
-    line-height: 1.75;
-    color: var(--color-text);
-
-    h2, h3 {
-      margin-top: $space-6;
-      margin-bottom: $space-3;
-      font-weight: 700;
-      line-height: 1.4;
-    }
-
-    p {
-      margin-bottom: $space-4;
-    }
+    line-height: 1.8;
   }
 }
 
-/* Share buttons modernizados */
 .share-buttons {
-  margin-top: $space-8;
-  padding-top: $space-6;
-  border-top: 1px solid var(--color-border);
-
-  .share-buttons__label {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-bottom: $space-3;
-    color: var(--color-text-secondary);
-  }
+  margin-top: 0;
 
   .share-buttons__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $space-3;
+    .btn[href*="linkedin" i]:hover {
+      background-color: #0a66c2;
+      border-color: #0a66c2;
+      color: #fff;
+    }
 
-    .btn {
-      display: flex;
-      align-items: center;
-      gap: $space-2;
-      border-radius: $radius-7;
-      padding: $space-2 $space-4;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: background-color 0.25s ease, transform 0.15s ease;
+    .btn[href*="facebook" i]:hover {
+      background-color: #1877f2;
+      border-color: #1877f2;
+      color: #fff;
+    }
 
-      &:hover {
-        transform: translateY(-2px);
-      }
-
-      &.linkedin:hover {
-        background-color: #0a66c2;
-        color: #fff;
-      }
-
-      &.facebook:hover {
-        background-color: #1877f2;
-        color: #fff;
-      }
-
-      &.copy:hover {
-        background-color: var(--color-accent);
-        color: #fff;
-      }
+    .js-copy-link:hover {
+      background-color: var(--color-accent);
+      border-color: var(--color-accent);
+      color: var(--color-text-on-accent);
     }
   }
 }
@@ -75,8 +37,9 @@ figure {
 }
 
 figcaption {
-  margin-top: -$space-8;
+  margin-top: $space-2;
   font-size: 0.875rem;
+  color: var(--color-text-secondary);
 }
 
 .image-banner {
@@ -84,7 +47,6 @@ figcaption {
   overflow: hidden;
   width: 100%;
   aspect-ratio: 13 / 9;
-  object-fit: cover;
   border-radius: $radius-6;
 
   img {
@@ -96,12 +58,12 @@ figcaption {
   }
 
   figcaption {
-    background-color: var(--color-bg);
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
     position: absolute;
     bottom: $space-2;
     left: $space-4;
-    margin-top: $space-2;
-    text-align: center;
     padding: $space-1 $space-2;
+    border-radius: $radius-3;
   }
 }

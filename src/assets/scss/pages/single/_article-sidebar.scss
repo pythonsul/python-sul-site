@@ -1,101 +1,78 @@
 .article-sidebar {
-  @include flex-column-center;
+  display: flex;
+  flex-direction: column;
+  gap: $space-5;
   width: 100%;
-  gap: $space-4;
-  overflow: hidden;
-  background-color: var(--color-bg);
+  padding-block: $space-4;
 
   @media (min-width: $breakpoint-md) {
-    margin-top: $space-6;
-    padding-inline: $space-2;
-    padding-block: $space-10;
-    gap: $space-6;
-    border-left: 1px solid var(--color-border);
+    padding-block: 0;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    position: sticky;
+    top: $space-12;
   }
 
   .sidebar__section {
-    width: 100%;
-    background-color: var(--color-surface, #fff);
+    display: flex;
+    flex-direction: column;
+    gap: $space-3;
+    padding: $space-4;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border-subtle);
     border-radius: $radius-6;
-    padding: $space-4 $space-3;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    transition: background-color 0.25s ease, transform 0.2s ease;
-
-    &:not(:last-child) {
-      margin-bottom: $space-2;
-    }
+    box-shadow: $box-shadow-light;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--color-surface-hover, #f8f9fa);
       transform: translateY(-2px);
+      box-shadow: $box-shadow-light-hover;
     }
   }
 
   .sidebar__title {
-    font-weight: 700;
     font-size: 0.95rem;
-    letter-spacing: 0.5px;
-    color: var(--color-text);
-    margin-bottom: $space-3;
-    padding-bottom: $space-4;
+    font-weight: 700;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .sidebar__description {
     color: var(--color-text-secondary);
     line-height: 1.6;
-    font-size: 0.9rem;
-    margin-bottom: $space-3;
+    font-size: 0.95rem;
   }
 
   .sidebar__categories {
     list-style: none;
-    padding-left: 0;
-    padding-inline-start: 0;
-
-    .sidebar__category {
-      width: 100%;
-      margin-bottom: $space-2;
-    }
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: $space-2;
   }
 
   .sidebar__link {
-    @include flex-start;
+    @include flex-between;
     padding: $space-2 $space-3;
-    color: var(--color-text);
     border-radius: $radius-6;
-    transition: background-color 0.25s ease, color 0.25s ease,
-      transform 0.15s ease;
+    color: var(--color-text);
+    background-color: var(--color-surface-hover);
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
 
     &:hover {
       background-color: var(--color-accent-100);
+      border-color: var(--color-border-subtle);
       color: var(--color-accent);
       transform: translateX(2px);
     }
 
-    &::before {
-      content: '';
-      display: inline-block;
-      width: $space-1;
-      height: $space-1;
-      background-color: var(--color-accent);
-      border-radius: 50%;
-      margin-right: $space-3;
-      opacity: 0.6;
-      transition: opacity 0.25s ease;
-    }
-
-    &:hover::before {
-      opacity: 1;
-    }
-
     svg {
-      margin-left: $space-2;
       width: $space-4;
       height: $space-4;
-      stroke: var(--color-text);
-      transition: fill 0.25s ease;
+      stroke: currentColor;
     }
   }
 }
