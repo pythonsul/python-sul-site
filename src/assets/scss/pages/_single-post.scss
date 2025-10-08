@@ -1,18 +1,24 @@
 .single {
   background-color: var(--color-bg);
   color: var(--color-text);
+  padding-block: $space-10 $space-12;
+
+  @media (min-width: $breakpoint-lg) {
+    padding-block: $space-12 $space-12;
+  }
 
   .page-header {
     background-color: var(--color-content-card-bg);
+    border-bottom: 1px solid var(--color-border-subtle);
 
     .featured-image {
       @include flex-center;
       width: 100%;
-      height: 12rem;
+      height: 14rem;
       margin-inline: auto;
       overflow: hidden;
-      background: var(--color-content-card-bg);
-      box-shadow: none;
+      background-color: var(--color-content-card-bg);
+      border-radius: $radius-6;
 
       img {
         width: 100%;
@@ -25,118 +31,88 @@
       }
 
       @media (min-width: $breakpoint-md) {
-        border-radius: 0;
-        width: 100%;
-        height: 25rem;
+        height: 24rem;
+        border-radius: $radius-7;
       }
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      padding-block: 0;
     }
   }
 
   .article {
-    padding-bottom: $space-8;
-    margin-top: -$space-12;
+    @include responsive-container;
+    margin: 0 auto;
+    padding: 0;
 
     .article-wrapper {
-      @include grid(2, $space-6);
-      grid-template-columns: 3fr 1fr;
-      padding: $space-8 0 0 $space-4;
-      background-color: var(--color-single-post-bg);
-      box-shadow: $box-shadow-md;
-      border-radius: $radius-6;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: $space-8;
+      padding: $space-6;
+      background-color: var(--color-surface);
+      border: 1px solid var(--color-border-subtle);
+      border-radius: $radius-7;
+      box-shadow: $box-shadow-light;
+      align-items: start;
 
       @media (min-width: $breakpoint-md) {
-        padding: $space-8 0 0 $space-8;
-        display: grid;
+        padding: $space-7;
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        grid-template-columns: minmax(0, 2.6fr) minmax(0, 1.2fr);
+        gap: $space-10;
+        padding: $space-8;
       }
     }
 
     .article-content {
-      padding-right: 0;
-      border-right: none;
-
-      @media (min-width: $breakpoint-md) {
-        padding-right: $space-8;
-        padding-bottom: 0;
-      }
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      @include responsive-container;
-      padding-bottom: $space-8;
-    }
-  }
-
-  .share-buttons {
-    @include flex-column-start;
-    gap: $space-4;
-    padding-bottom: $space-6;
-
-    &__label {
-      font-weight: 500;
-      color: var(--color-text-secondary);
-    }
-
-    &__list {
       display: flex;
-      flex-wrap: wrap;
-      gap: $space-4;
-
-      .btn.outline {
-        padding: $space-3 $space-4;
-        border-color: var(--color-button-border-outline);
-        color: var(--color-button-text-outline);
-        font-weight: 400;
-        border-radius: $radius-6;
-
-        &:hover {
-          background-color: var(--color-button-bg-outline-hover);
-          border-color: var(--color-button-border-outline-hover);
-          color: var(--color-button-text-outline-hover);
-        }
-      }
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      @include flex-end;
+      flex-direction: column;
+      gap: $space-8;
     }
   }
 
   .article-header {
-    padding-block: $space-10 $space-4;
-    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: $space-5;
+    padding-bottom: $space-6;
+    border-bottom: 1px solid var(--color-border-subtle);
+
+    .article-title {
+      font-weight: 700;
+      color: var(--color-single-post-title);
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+
+    .article-description {
+      color: var(--color-text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
 
     .article-meta {
-      @include flex-column-start;
+      display: flex;
       flex-wrap: wrap;
-      gap: $space-6;
-      color: var(--color-text-secondary);
+      gap: $space-4;
+      padding: $space-4;
+      background-color: var(--color-surface-hover);
+      border: 1px solid var(--color-border-subtle);
+      border-radius: $radius-6;
 
-      .meta-item,
-      time {
-        @include flex-center;
-        flex-wrap: nowrap;
-        gap: $space-2;
-
-        svg {
-          width: $space-4;
-          height: $space-4;
-          stroke: currentColor;
-        }
+      .meta-item {
+        display: flex;
+        align-items: center;
+        gap: $space-3;
+        min-width: 16rem;
 
         .meta__avatar {
           width: $space-8;
           height: $space-8;
           border-radius: 50%;
           overflow: hidden;
-          flex-shrink: 0;
           box-shadow: none;
+          border: 1px solid var(--color-border-subtle);
 
           img {
             width: 100%;
@@ -145,87 +121,125 @@
           }
         }
 
-        .meta__author {
-          font-weight: 600;
-          color: var(--color-text);
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: $space-1;
+
+          .meta__author {
+            font-weight: 600;
+            color: var(--color-text);
+          }
+
+          .meta-date {
+            @include flex-start;
+            gap: $space-2;
+            color: var(--color-text-secondary);
+
+            svg {
+              width: $space-4;
+              height: $space-4;
+              stroke: currentColor;
+            }
+          }
         }
       }
+    }
 
-      .wrapper {
-        @include flex-column-start;
+    .article-tags {
+      @include flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: $space-2;
+      margin: 0;
+      padding: 0;
+      list-style: none;
 
-        .meta-date {
-          @include flex-center;
-          gap: $space-2;
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: $space-1;
+        padding: $space-1 $space-3;
+        background-color: var(--color-accent);
+        color: var(--color-text-on-accent);
+        border-radius: $radius-6;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        height: fit-content;
+
+        svg {
+          width: $space-3;
+          height: $space-3;
         }
-      }
-    }
-
-    .article-title {
-      font-weight: 700;
-      color: var(--color-single-post-title);
-      margin-bottom: $space-2;
-      text-align: left;
-
-      @media (min-width: $breakpoint-md) {
-        margin-bottom: $space-6;
-      }
-    }
-
-    .article-description {
-      color: var(--color-text-secondary);
-      margin-bottom: $space-6;
-      line-height: 1.5;
-    }
-  }
-
-  .article-tags {
-    @include flex-center;
-    gap: $space-2;
-
-    .tag {
-      @include flex-center;
-      padding: $space-1 $space-3;
-      font-weight: 600;
-      text-transform: capitalize;
-      background-color: var(--color-accent);
-      color: var(--color-text-on-accent);
-      border-radius: $radius-6;
-      gap: $space-1;
-
-      svg {
-        width: $space-3;
-        height: $space-3;
-        fill: var(--color-text-on-accent);
       }
     }
   }
 
   .article-footer {
-    @include flex-between;
-    flex-wrap: wrap;
-    border-top: 1px solid var(--color-border);
-    padding-block: $space-6 $space-4;
+    display: flex;
+    flex-direction: column;
+    gap: $space-6;
+    border-top: 1px solid var(--color-border-subtle);
+    padding-top: $space-6;
+  }
+
+  .share-buttons {
+    display: flex;
+    flex-direction: column;
     gap: $space-4;
 
-    .article-meta {
-      margin-bottom: 0;
+    &__label {
+      font-weight: 600;
+      color: var(--color-text-secondary);
+      letter-spacing: 0.02em;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $space-3;
+
+      .btn {
+        border-radius: $radius-7;
+        padding: $space-2 $space-4;
+        border: 1px solid var(--color-border-subtle);
+        background-color: var(--color-surface);
+        color: var(--color-text);
+        font-weight: 500;
+        transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+        &:hover {
+          background-color: var(--color-surface-hover);
+          border-color: var(--color-border);
+          color: var(--color-accent);
+          transform: translateY(-2px);
+        }
+
+        &:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px var(--color-surface), 0 0 0 4px rgba(53, 132, 228, 0.35);
+        }
+
+        svg {
+          width: $space-4;
+          height: $space-4;
+        }
+      }
     }
   }
 }
 
 .post-content {
-  padding-inline: 0;
-  overflow: hidden;
-  line-height: 1.7;
-  color: var(--color-text);
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
   max-width: 70ch;
+  color: var(--color-text);
+  line-height: 1.75;
 
   @media (min-width: $breakpoint-md) {
-    padding-block: $space-6;
-    text-align: left;
-    margin-bottom: $space-6;
+    gap: $space-5;
   }
 
   h1,
@@ -235,55 +249,50 @@
   h5,
   h6 {
     color: var(--color-single-post-title);
+    margin: 0;
     margin-top: $space-8;
-    margin-bottom: $space-4;
+    margin-bottom: $space-3;
     line-height: 1.3;
     font-weight: 700;
   }
 
-  ul,
-  ol {
-    margin-bottom: $space-4;
-    padding-left: $space-6;
+  p {
+    margin: 0;
   }
 
-  li {
-    margin-bottom: $space-2;
-    list-style: disc;
+  ul,
+  ol {
+    margin: 0;
+    padding-left: $space-6;
+    display: grid;
+    gap: $space-2;
+  }
 
-    ul {
-      margin-top: $space-2;
-      padding-left: $space-6;
-      list-style: square;
-
-      li {
-        list-style: circle;
-      }
-    }
+  li ul,
+  li ol {
+    margin-top: $space-2;
   }
 
   a {
     color: var(--color-accent);
+    font-weight: 500;
     text-decoration: none;
-    transition: color 0.2s ease;
-    padding: 0;
 
     &:hover {
       color: var(--color-accent-hover);
+      text-decoration: underline;
     }
   }
 
   blockquote {
-    border-left: 4px solid var(--color-border);
-    padding: $space-4 $space-6;
+    border-left: 3px solid var(--color-accent);
+    background-color: rgba(53, 132, 228, 0.08);
+    padding: $space-5 $space-6;
     margin: $space-6 0;
     color: var(--color-text-secondary);
-    font-style: italic;
-    background-color: var(--color-accent-100);
     border-radius: $radius-6;
 
     @media (min-width: $breakpoint-md) {
-      padding: $space-6 $space-8;
       margin: $space-8 0;
     }
   }
@@ -291,8 +300,9 @@
   code {
     background-color: var(--color-code-inline-bg);
     border-radius: $radius-6;
-    padding: $space-1 $space-2;
+    padding: 0.125rem $space-2;
     font-family: 'Fira Code', 'Monaco', 'Courier New', monospace;
+    font-size: 0.95rem;
   }
 
   pre {
@@ -301,46 +311,59 @@
     padding: $space-6;
     border-radius: $radius-6;
     overflow-x: auto;
-    margin-bottom: $space-8;
-    line-height: 1.5;
+    margin: $space-6 0;
+    line-height: 1.55;
 
     @media (min-width: $breakpoint-md) {
-      padding: $space-8;
-      margin-bottom: $space-10;
+      padding: $space-7;
+      margin: $space-8 0;
     }
 
     code {
-      background: none;
-      color: inherit;
+      background: transparent;
       padding: 0;
+      color: inherit;
     }
   }
 
-  img {
-    max-width: 100%;
+  img,
+  picture {
+    width: 100%;
     height: auto;
-    display: block;
-    margin-block: $space-6;
     border-radius: $radius-6;
+    margin: $space-6 0;
     box-shadow: none;
+  }
 
-    @media (min-width: $breakpoint-md) {
-      margin-block: $space-8;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: $radius-6;
+    overflow: hidden;
+
+    th,
+    td {
+      padding: $space-3;
+      border-bottom: 1px solid var(--color-border-subtle);
+      text-align: left;
+    }
+
+    thead th {
+      background-color: var(--color-surface-hover);
+      font-weight: 600;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
     }
   }
 
   hr {
     border: none;
-    border-top: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border-subtle);
     margin: $space-8 0;
-
-    @media (min-width: $breakpoint-md) {
-      margin: $space-10 0;
-    }
-  }
-
-  p {
-    margin-bottom: $space-4;
   }
 }
 

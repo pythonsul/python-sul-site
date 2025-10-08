@@ -1,3 +1,5 @@
+@import "./list/pagination";
+
 .card-list {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -123,49 +125,6 @@
       &__count {
         color: var(--color-content-list-count);
       }
-    }
-  }
-
-  .pagination {
-    @include responsive-container;
-    padding-block: $space-6;
-
-    &__wrapper {
-      @include flex-center;
-      gap: $space-2;
-
-      .btn {
-        padding: $space-2 $space-4;
-        gap: $space-3;
-      }
-
-      .separator {
-        line-height: 1;
-        padding: 0 $space-2;
-        padding-top: $space-4;
-        color: var(--color-content-list-separator);
-      }
-    }
-
-    &__pages {
-      display: flex;
-      align-items: center;
-      gap: $space-1;
-
-      .btn {
-        padding: $space-2 $space-4;
-
-        &.active {
-          background-color: var(--color-content-list-page-active-bg);
-          border: 1px solid var(--color-content-list-page-active-border);
-          color: var(--color-content-list-page-active-text);
-        }
-      }
-    }
-
-    &__ellipsis {
-      padding: 0 $space-2;
-      color: var(--color-content-list-ellipsis);
     }
   }
 }

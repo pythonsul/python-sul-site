@@ -4,13 +4,13 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Sobre"
-url = "#about"
+name = "Keynotes"
+url = "#keynotes"
 weight = 2
 
 [[main]]
-name = "Envío de Charlas"
-url = "#cfp"
+name = "Charlas"
+url = "#buy-a-ticket"
 weight = 3
 
 [[main]]

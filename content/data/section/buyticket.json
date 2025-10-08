@@ -1,0 +1,104 @@
+[
+  {
+    "language": "pt-br",
+    "badge": "Grade de palestras em breve",
+    "title": "Enquanto finalizamos a programação, garanta seu ingresso",
+    "description": "Estamos cuidando de cada detalhe da grade com conteúdos que inspiram, informam e acolhem a comunidade Python. Assim que tudo estiver confirmado, avisaremos por aqui e nas redes sociais.",
+    "helper": "Ao comprar um ingresso você ajuda a viabilizar a PySul 2025 e mantém o evento acessível para toda a comunidade.",
+    "schedule": {
+      "title": "Programação",
+      "description": "Publicaremos a grade completa em breve. <br>Acesse o grupo no WhatsApp e Telegram ou companhe o Instagram para ser avisado em primeira mão."
+    },
+    "cta": {
+      "label": "Comprar ingresso",
+      "link": "https://www.sympla.com.br/evento/python-sul-2025-porto-alegre/3092007?lang=pt"
+    },
+    "tickets": [
+      {
+        "name": "Cancioneira (meia-entrada)",
+        "tag": "50% off",
+        "description": "Quero acompanhar as palestras e faço parte do grupo com direito à meia-entrada."
+      },
+      {
+        "name": "Vivente mateador (inteira)",
+        "description": "Quero acompanhar as palestras, compartilhar o mate e garantir meu certificado."
+      },
+      {
+        "name": "Cusco de estância (inteira com camiseta)",
+        "description": "Quero acompanhar as palestras + todos os benefícios da modalidade padrão e garantir minha camiseta."
+      },
+      {
+        "name": "Chimarrão de ouro (Também quero apoiar)",
+        "description": "Quero apoiar o evento e a comunidade, com agradecimento e brinde exclusivo ao final."
+      }
+    ]
+  },
+  {
+    "language": "en",
+    "badge": "Talk schedule coming soon",
+    "title": "While we finalize the program, secure your ticket",
+    "description": "We’re taking care of every detail of the schedule, with content that inspires, informs, and embraces the Python community. Once everything is confirmed, we’ll announce it here and on social media.",
+    "helper": "By purchasing a ticket, you help make PySul 2025 possible and keep the event accessible for the entire community.",
+    "schedule": {
+      "title": "Schedule",
+      "description": "The full agenda will be published soon. <br>Join our WhatsApp and Telegram groups or follow us on Instagram to be notified first."
+    },
+    "cta": {
+      "label": "Buy ticket",
+      "link": "https://www.sympla.com.br/evento/python-sul-2025-porto-alegre/3092007/?lang=en"
+    },
+    "tickets": [
+      {
+        "name": "Cancioneira (half-price ticket)",
+        "tag": "50% off",
+        "description": "I want to attend the talks and I’m eligible for the half-price ticket."
+      },
+      {
+        "name": "Vivente Mateador (regular ticket)",
+        "description": "I want to attend the talks, share some mate, and get my participation certificate."
+      },
+      {
+        "name": "Cusco de Estância (regular + T-shirt)",
+        "description": "I want to attend the talks, enjoy all regular benefits, and get an exclusive T-shirt."
+      },
+      {
+        "name": "Chimarrão de Ouro (supporter ticket)",
+        "description": "I want to support the event and community, with a thank-you and an exclusive gift at the end."
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "badge": "Agenda de charlas próximamente",
+    "title": "Mientras terminamos la programación, asegurá tu entrada",
+    "description": "Estamos cuidando cada detalle del cronograma con contenidos que inspiran, informan y fortalecen a la comunidad Python. Apenas todo esté confirmado, lo anunciaremos por acá y en las redes sociales.",
+    "helper": "Al comprar una entrada ayudás a hacer posible la PySul 2025 y mantenés el evento accesible para toda la comunidad.",
+    "schedule": {
+      "title": "Programación",
+      "description": "Publicaremos la agenda completa muy pronto. <br>Unite al grupo de WhatsApp o Telegram, o seguí el Instagram para enterarte antes que nadie."
+    },
+    "cta": {
+      "label": "Comprar entrada",
+      "link": "https://www.sympla.com.br/evento/python-sul-2025-porto-alegre/3092007/?lang=es"
+    },
+    "tickets": [
+      {
+        "name": "Cancionera (media entrada)",
+        "tag": "50% off",
+        "description": "Quiero asistir a las charlas y formo parte del grupo con derecho a media entrada."
+      },
+      {
+        "name": "Viviente matero (entrada completa)",
+        "description": "Quiero participar en las charlas, compartir unos mates y asegurar mi certificado."
+      },
+      {
+        "name": "Cusco de estancia (entrada + remera)",
+        "description": "Quiero asistir a las charlas, disfrutar de todos los beneficios de la modalidad estándar y llevarme mi remera."
+      },
+      {
+        "name": "Mate de oro (también quiero apoyar)",
+        "description": "Quiero apoyar el evento y a la comunidad, con un agradecimiento y un regalo exclusivo al final."
+      }
+    ]
+  }
+]
