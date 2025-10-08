@@ -95,3 +95,6 @@ other = "Mais detalhes aqui"
 
 [register_now]
 other = "Inscreva-se agora"
+
+[all_posts]
+other = "Todas postagens"
