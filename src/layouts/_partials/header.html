@@ -16,6 +16,7 @@
           {{/* Show event logo or name */}}
           {{ $logo := resources.Get "images/logo_colored.png" }}
           {{ if $logo }}
+            {{ partial "svg/caramelo.svg" }}
             <img src="{{ $logo.Permalink }}" width="" height="32px" alt="{{ .Site.Title | safeHTML }}" class="site-footer__logo">
           {{ else }}
             <span class="site-footer__name">

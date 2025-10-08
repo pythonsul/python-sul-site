@@ -132,6 +132,11 @@
           width: auto;
           margin-bottom: -$space-2;
         }
+
+        svg {
+          width: $header-height;
+          margin-right: -1.5rem;
+        }
       }
     }
   }

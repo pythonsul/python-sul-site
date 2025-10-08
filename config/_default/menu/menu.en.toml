@@ -4,13 +4,13 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "#about"
+name = "Keynotes"
+url = "#keynotes"
 weight = 2
 
 [[main]]
-name = "Call for Papers"
-url = "#cfp"
+name = "Talks"
+url = "#buy-a-ticket"
 weight = 3
 
 [[main]]
@@ -20,7 +20,7 @@ weight = 4
 
 [[main]]
 name = "Sponsors"
-url = "#sponsors/"
+url = "#sponsors"
 weight = 5
 
 [[main]]
