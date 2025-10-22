@@ -4,7 +4,7 @@
 {{ $className := .className | default "" }}
 {{ $isAvatar := isset . "avatar" }}
 {{ $image := resources.Get $sourcePath }}
-{{ $image := $image | default (resources.Get "/images/placeholder.png") }}
+{{ $image = $image | default (resources.Get "/images/placeholder.png") }}
 
 {{/* Set responsive image sizes based on avatar flag */}}
 {{ $sizeSmall := cond $isAvatar "32x" "600x" }}
@@ -13,30 +13,43 @@
 {{ $sizeFull := cond $isAvatar "128x" "1400x" }}
 
 {{ with $image }}
-  {{/* Generate resized images in WebP and JPEG formats */}}
+  {{/* Determine original image format (prefer resource MediaType, fall back to path extension) */}}
+  {{ $extFromPath := lower (strings.TrimPrefix "." (path.Ext $sourcePath)) }}
+  {{ $origFormat := (.MediaType.SubType | default $extFromPath) | lower }}
+  {{ $isPNG := or (eq $origFormat "png") (eq $origFormat "x-png") }}
+
+  {{/* Generate resized images in WebP and original/fallback formats */}}
   {{ $webpSmall := .Resize (printf "%s webp q80" $sizeSmall) }}
   {{ $webpMedium := .Resize (printf "%s webp q80" $sizeMedium) }}
   {{ $webpLarge := .Resize (printf "%s webp q80" $sizeLarge) }}
-  {{ $jpegFull := .Resize (printf "%s jpg q90" $sizeFull) }}
+
+  {{ $fallbackConfig := cond $isPNG (dict "format" "png" "mime" "image/png") (dict "format" "jpg q90" "mime" "image/jpeg") }}
+  {{ $fallback := .Resize (printf "%s %s" $sizeFull (index $fallbackConfig "format")) }}
+  {{ $mimeFallback := index $fallbackConfig "mime" }}
+  {{ $sizesAttr := cond $isAvatar "(min-width: 1024px) 128px, (min-width: 800px) 64px, 32px" "(min-width: 1024px) 1400px, (min-width: 800px) 1000px, 600px" }}
 
   <figure class="{{ $className }}">
     <picture>
-      {{/* JPEG fallback for large screens */}}
-      <source srcset="{{ $jpegFull.Permalink }}" type="image/jpeg" media="(min-width: 1024px)">
-      {{/* WebP for large, medium, and small screens */}}
+      {{/* WebP sources for modern browsers */}}
       <source srcset="{{ $webpLarge.Permalink }}" type="image/webp" media="(min-width: 1024px)">
       <source srcset="{{ $webpMedium.Permalink }}" type="image/webp" media="(max-width: 1024px)">
       <source srcset="{{ $webpSmall.Permalink }}" type="image/webp" media="(max-width: 800px)">
+
+      {{/* Fallback for large screens in original format (PNG or JPEG) */}}
+      <source srcset="{{ $fallback.Permalink }}" type="{{ $mimeFallback }}" media="(min-width: 1024px)">
+
       {{/* Fallback img tag with alt text and lazy loading */}}
       <img
-        src="{{ $jpegFull.Permalink }}"
+        src="{{ $fallback.Permalink }}"
         alt="{{ $alt | plainify }}"
-        width="{{ $jpegFull.Width }}"
-        height="{{ $jpegFull.Height }}"
+        width="{{ $fallback.Width }}"
+        height="{{ $fallback.Height }}"
+        sizes="{{ $sizesAttr }}"
         loading="lazy"
         decoding="async"
-        />
+      />
     </picture>
+
     {{/* Show figcaption if alt is set and not an avatar */}}
     {{ if and $alt (not $isAvatar) }}
       <figcaption>CC: {{ $alt }}</figcaption>

@@ -35,5 +35,24 @@
     &.canal-roveeb {
       background-color: $black;
     }
+
+    &.apyb {
+      img {
+        height: $space-5;
+      }
+    }
+  }
+
+  figure {
+    margin: 0;
+    @include flex-center;
+
+    picture {
+      @include flex-center;
+    }
+  }
+
+  figcaption {
+    display: none;
   }
 }

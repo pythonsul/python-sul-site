@@ -1,4 +1,5 @@
 {{ $supporters := .Site.Data.section.sponsors.supporters }}
+{{ $currentLang := .Site.Language.Lang }}
 
 <section class="sponsors" id="sponsors">
   <div class="section-container">
@@ -14,7 +15,8 @@
       {{ range $supporters }}
         <div class="supporter-logo {{ .name | urlize }}">
           <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ .logo }}" alt="{{ .name }} Logo" />
+            {{ $alt := index .alt $currentLang }}
+            {{ partial "core/image.html" (dict "src" .logo "alt" $alt ) }}
           </a>
         </div>
       {{ end }}

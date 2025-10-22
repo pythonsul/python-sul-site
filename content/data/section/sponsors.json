@@ -59,7 +59,7 @@
     {
       "name": "Cumbuca Dev",
       "url": "https://cumbuca.dev/",
-      "logo": "https://cumbuca.dev/wp-content/uploads/2024/08/site-logo.png?w=60&h=60",
+      "logo": "/images/sponsors/cumbuca.png",
       "alt": {
         "pt-br": "Logo da Cumbuca Dev",
         "en": "Cumbuca Dev Logo",
@@ -67,9 +67,19 @@
       }
     },
     {
+      "name": "APYB",
+      "url": "https://apyb.python.org.br",
+      "logo": "/images/sponsors/apyb.png",
+      "alt": {
+        "pt-br": "Logo da APYB - Associação Python Brasil",
+        "en": "APYB Logo",
+        "es": "Logo de APYB"
+      }
+    },
+    {
       "name": "GDG - Porto Alegre",
       "url": "https://gdg.community.dev/gdg-porto-alegre/",
-      "logo": "https://sul.python.org.br/images/gdg-poa.png",
+      "logo": "/images/sponsors/gdg-poa.png",
       "alt": {
         "pt-br": "Logo do GDG - Porto Alegre",
         "en": "Logo of GDG - Porto Alegre",
@@ -79,7 +89,7 @@
     {
       "name": "Canal Roveeb",
       "url": "https://roveeb.com/",
-      "logo": "https://sul.python.org.br/images/logo-roveeb.png",
+      "logo": "/images/sponsors/roveeb.png",
       "alt": {
         "pt-br": "Logo do Canal Roveeb - Lajeado - RS",
         "en": "Logo of Canal Roveeb - Lajeado - RS",
@@ -89,7 +99,7 @@
     {
       "name": "PHPRS",
       "url": "https://github.com/PHPRS",
-      "logo": "https://sul.python.org.br/images/phprs.jpg",
+      "logo": "/images/sponsors/phprs.jpg",
       "alt": {
         "pt-br": "Logo da PHPRS",
         "en": "PHPRS Logo",
