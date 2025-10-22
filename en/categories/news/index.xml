@@ -50,9 +50,9 @@
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_64924d689767b3c8.webp" type="image/webp" media="(min-width: 1024px)">
- &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_6bf69ffee0ec59f1.webp" type="image/webp" media="(max-width: 1024px)">
- &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_2cd4b1ef765f55d9.webp" type="image/webp" media="(max-width: 800px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_5527749484bae73e.webp" type="image/webp" media="(min-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_a5981d515789e05c.webp" type="image/webp" media="(max-width: 1024px)">
+ &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_2155a7b296b41779.webp" type="image/webp" media="(max-width: 800px)">
 
  
  &lt;source srcset="https://sul.python.org.br/images/posts/live-ubl-cumbuca/maria-maia_hu_b4efcf470c06b458.jpg" type="image/jpeg" media="(min-width: 1024px)">
