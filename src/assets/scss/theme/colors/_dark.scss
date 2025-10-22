@@ -138,6 +138,46 @@ $theme-dark: (
   code-text: map-get($slate, 200),
 
   border-subtle: #3a3f44,
+
+  // scheduling category colors (dark variants)
+  category-career-border: darken(map-get($green, 500), 12%),
+  category-career-bg: darken(map-get($green, 700), 20%),
+
+  category-ai-border: darken(map-get($blue, 400), 12%),
+  category-ai-bg: darken(map-get($blue, 900), 20%),
+
+  category-data-science-border: darken(map-get($blue, 600), 12%),
+  category-data-science-bg: darken(map-get($blue, 900), 30%),
+
+  category-open-source-border: darken(map-get($purple, 500), 12%),
+  category-open-source-bg: darken(map-get($purple, 900), 20%),
+
+  category-testing-border: darken(map-get($red, 500), 12%),
+  category-testing-bg: darken(map-get($red, 900), 20%),
+
+  category-automation-border: darken(map-get($blue, 300), 12%),
+  category-automation-bg: darken(map-get($blue, 900), 20%),
+
+  category-software-engineering-border: darken(map-get($brown, 500), 12%),
+  category-software-engineering-bg: darken(map-get($brown, 700), 20%),
+
+  category-web-border: darken(map-get($py-blue, 400), 12%),
+  category-web-bg: darken(map-get($py-blue, 500), 20%),
+
+  category-database-border: darken(map-get($slate, 500), 12%),
+  category-database-bg: darken(map-get($slate, 900), 20%),
+
+  category-lightning_talks-border: darken(map-get($teal, 500), 12%),
+  category-lightning_talks-bg: darken(map-get($teal, 900), 20%),
+
+  category-keynote-border: darken(map-get($yellow, 700), 12%),
+  category-keynote-bg: darken(map-get($yellow, 800), 30%),
+
+  category-lunch-border: darken(map-get($slate, 800), 12%),
+  category-lunch-bg: darken(map-get($slate, 900), 20%),
+  
+
+  schedule-bg: map-get($dark, 600),
 );
 
 $buttons-dark: (

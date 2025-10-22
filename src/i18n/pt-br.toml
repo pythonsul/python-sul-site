@@ -98,3 +98,61 @@ other = "Inscreva-se agora"
 
 [all_posts]
 other = "Todas postagens"
+
+
+[schedule_friday_21]
+other = "Sexta-Feira - 21"
+
+[schedule_saturday_22]
+other = "Sábado - 22"
+
+[schedule_sunday_23]
+other = "Domingo - 23"
+
+[web]
+other = "Web"
+
+[data_science]
+other = "Ciência de Dados"
+
+[automation]
+other = "Automação"
+
+[devops]
+other = "DevOps"
+
+[lightning_talks]
+other = "Palestras Relâmpago (Lightning Talks)"
+
+[workshop]
+other = "Tutorial"
+
+[lunch]
+other = "Almoço"
+
+[open_source]
+other = "Open Source"
+
+[career]
+other = "Carreira"
+
+[database]
+other = "Banco de Dados"
+
+[ai]
+other = "IA e Machine Learning"
+
+[keynote]
+other = "palestra convidada"
+
+[software_engineering]
+other = "Engenharia de Software"
+
+[testing]
+other = "Testes e Qualidade"
+
+[section_schedule_title]
+other = "Programação"
+
+[section_schedule_description]
+other = "Confira a programação completa do evento, incluindo palestras, workshops e atividades especiais planejadas para cada dia."

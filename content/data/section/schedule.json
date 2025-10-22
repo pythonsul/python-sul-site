@@ -1,0 +1,298 @@
+[
+    {
+        "day": "friday_21",
+        "sessions": [
+            {
+                "start": "09:00",
+                "end": "12:00",
+                "duration": "3h",
+                "title": "Estamos trabalhando nisso.",
+                "speaker": {
+                    "name": "Em breve",
+                    "photo": "images/speakers/tba.jpg"
+                },
+                "category": "web",
+                "type": "workshop"
+            },
+            {
+                "start": "09:00",
+                "end": "12:00",
+                "duration": "40m",
+                "title": "Criando a sua primeira análise de sentimentos utilizando técnicas NLP e LLM’s ",
+                "speaker": {
+                    "name": "Bernardo De Castro",
+                    "photo": "images/speakers/bernardo-de-castro.jpg"
+                },
+                "category": "data_science",
+                "type": "workshop"
+            },
+            {
+                "start": "13:40",
+                "end": "17:40",
+                "duration": "3h",
+                "title": "Automatizando servidores do Discord com Python",
+                "speaker": {
+                    "name": "João Paulo Carvalho",
+                    "photo": "images/speakers/joao-paulo-carvalho.jpg"
+                },
+                "category": "automation",
+                "type": "workshop"
+            },
+            {
+                "start": "13:40",
+                "end": "17:40",
+                "duration": "3h",
+                "title": "Começando com FastAPI: construa sua primeira API em Python",
+                "speaker": {
+                    "name": "Felipe de Morais",
+                    "photo": "images/speakers/felipe-de-morais.jpg"
+                },
+                "category": "web",
+                "type": "workshop"
+            }
+        ]
+    },
+    {
+        "day": "saturday_22",
+        "sessions": [
+            {
+                "start": "09:00",
+                "end": "09:40",
+                "duration": "40m",
+                "title": "Como programar como antigamente (blog em 30 min ou mais)",
+                "speaker": {
+                    "name": "Perceu Bertoletti",
+                    "photo": "images/speakers/perceu.jpg"
+                },
+                "category": "web"
+            },
+            {
+                "start": "09:50",
+                "end": "10:30",
+                "duration": "40m",
+                "title": "Testes Inteligentes: O Futuro da Qualidade com IA e Python",
+                "speaker": {
+                    "name": "Gabriel Menezes",
+                    "photo": "images/speakers/gabriel-menezes.jpg"
+                },
+                "category": "testing"
+            },
+            {
+                "start": "10:40",
+                "end": "10:50",
+                "duration": "10m",
+                "title": "Lightning Talks",
+                "category": "lightning_talks"
+            },
+            {
+                "start": "11:00",
+                "end": "11:50",
+                "duration": "50m",
+                "type": "KEYNOTE",
+                "title": "Keynote de abertura",
+                "speaker": {
+                    "name": "Cesar Brod",
+                    "photo": "images/keynotes/cesar-brod.png"
+                },
+                "category": "keynote"
+            },
+            {
+                "start": "12:00",
+                "end": "13:30",
+                "duration": "1h30m",
+                "type": "ALMOÇO",
+                "title": "Almoço",
+                "category": "lunch"
+            },
+            {
+                "start": "13:40",
+                "end": "14:10",
+                "duration": "30m",
+                "title": "VigIA: funcionário virtual de Antifraude com Google ADK",
+                "speaker": {
+                    "name": "Cristiano Larrea",
+                    "photo": "images/speakers/cristiano-larrea.jpg"
+                },
+                "category": "automation"
+            },
+            {
+                "start": "14:20",
+                "end": "15:00",
+                "duration": "40m",
+                "title": "Modernizando código legado Python com auxílio de IA",
+                "speaker": {
+                    "name": "Eri Bastos",
+                    "photo": "images/speakers/eri-bastos.jpg"
+                },
+                "category": "ai"
+            },
+            {
+                "start": "15:00",
+                "end": "15:10",
+                "duration": "10m",
+                "type": "LIGHTNING TALKS",
+                "title": "Lightning Talks",
+                "category": "lightning_talks"
+            },
+            {
+                "start": "15:20",
+                "end": "15:50",
+                "duration": "30m",
+                "title": "Do Regex a LLM: Extraindo horários de cinema de páginas imprevisíveis",
+                "speaker": [
+                    {
+                        "name": "Guilherme Garcia",
+                        "photo": "images/speakers/guilherme-garcia.jpg"
+                    },
+                    {
+                        "name": "Nilton Pimentel",
+                        "photo": "images/speakers/nilton-pimentel.jpg"
+                    }
+                ],
+                "category": "ai"
+            },
+            {
+                "start": "16:00",
+                "end": "16:30",
+                "duration": "30m",
+                "title": "Conversando com os dados da educação brasileira",
+                "speaker": {
+                    "name": "Belisa Arnhold",
+                    "photo": "images/speakers/belisa-arnhold.jpg"
+                },
+                "category": "data_science"
+            },
+            {
+                "start": "16:40",
+                "end": "17:30",
+                "duration": "50m",
+                "type": "KEYNOTE",
+                "title": "Keynote de Encerramento",
+                "speaker": {
+                    "name": "Bruna Ferreira (bug_elseif)",
+                    "photo": "images/keynotes/bruna-ferreira.png"
+                },
+                "category": "keynote"
+            }
+        ]
+    },
+    {
+        "day": "sunday_23",
+        "sessions": [
+            {
+                "start": "09:00",
+                "end": "09:40",
+                "duration": "40m",
+                "title": "HTTP Server from scratch: criando seu próprio Gunicorn",
+                "speaker": {
+                    "name": "Gian Carlo",
+                    "photo": "images/speakers/gian-carlo.jpg"
+                },
+                "category": "web"
+            },
+            {
+                "start": "09:50",
+                "end": "10:30",
+                "duration": "40m",
+                "title": "Do Caos ao Código: Pensamento Computacional Aplicado à Regra de Negócio em Python",
+                "speaker": {
+                    "name": "Glória Barboza",
+                    "photo": "images/speakers/gloria-barboza.jpg"
+                },
+                "category": "software_engineering"
+            },
+            {
+                "start": "10:40",
+                "end": "10:50",
+                "duration": "10m",
+                "type": "LIGHTNING TALKS",
+                "title": "Lightning Talks",
+                "category": "lightning_talks"
+            },
+            {
+                "start": "11:00",
+                "end": "11:50",
+                "duration": "50m",
+                "type": "KEYNOTE",
+                "title": "Keynote de abertura",
+                "speaker": {
+                    "name": "Hisham Muhammad",
+                    "photo": "images/keynotes/hisham-muhammad.png"
+                },
+                "category": "keynote"
+            },
+            {
+                "start": "12:00",
+                "end": "13:30",
+                "duration": "1h30m",
+                "type": "ALMOÇO",
+                "title": "Almoço",
+                "category": "lunch"
+            },
+            {
+                "start": "13:40",
+                "end": "14:10",
+                "duration": "30m",
+                "title": "Cumbuca Dev: Fortalecendo o Open Source no Brasil",
+                "speaker": {
+                    "name": "Maria Antônia Maia",
+                    "photo": "images/speakers/maria-antonia-maia.jpg"
+                },
+                "category": "open_source"
+            },
+            {
+                "start": "14:20",
+                "end": "15:00",
+                "duration": "40m",
+                "title": "Nem Só de Código Vive o Dev",
+                "speaker": {
+                    "name": "Douglas Medeiros",
+                    "photo": "images/speakers/douglas-medeiros.jpg"
+                },
+                "category": "career"
+            },
+            {
+                "start": "15:00",
+                "end": "15:10",
+                "duration": "10m",
+                "type": "LIGHTNING TALKS",
+                "title": "Lightning Talks",
+                "category": "lightning_talks"
+            },
+            {
+                "start": "15:20",
+                "end": "15:50",
+                "duration": "30m",
+                "title": "Abrindo Porteiras",
+                "speaker": {
+                    "name": "Vilson Blanco Dauinheimer (Bwolf)",
+                    "photo": "images/speakers/bwolf.jpg"
+                },
+                "category": "career"
+            },
+            {
+                "start": "16:00",
+                "end": "16:30",
+                "duration": "30m",
+                "title": "Otimize suas consultas: Evitando armadilhas comuns em ORMs Python",
+                "speaker": {
+                    "name": "Rodrigo Bastos Vieira",
+                    "photo": "images/speakers/rodrigo-bastos-vieira.jpg"
+                },
+                "category": "database"
+            },
+            {
+                "start": "16:40",
+                "end": "17:30",
+                "duration": "50m",
+                "type": "KEYNOTE",
+                "title": "Keynote de Encerramento",
+                "speaker": {
+                    "name": "Felipe de Morais",
+                    "photo": "images/keynotes/felipe-de-morais.jpg"
+                },
+                "category": "keynote"
+            }
+        ]
+    }
+]
