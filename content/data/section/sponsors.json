@@ -59,7 +59,7 @@
     {
       "name": "Cumbuca Dev",
       "url": "https://cumbuca.dev/",
-      "logo": "images/sponsors/cumbuca.png",
+      "logo": "/images/sponsors/cumbuca.png",
       "alt": {
         "pt-br": "Logo da Cumbuca Dev",
         "en": "Cumbuca Dev Logo",
