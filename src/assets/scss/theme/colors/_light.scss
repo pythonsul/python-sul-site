@@ -138,6 +138,47 @@ $theme-light: (
   code-text: map-get($slate, 200),
 
   border-subtle: #d3d7db,
+
+
+  // scheduling category colors
+  category-career-border: map-get($green, 500),
+  category-career-bg: map-get($green, 50),
+
+  category-ai-border: map-get($blue, 400),
+  category-ai-bg: map-get($blue, 50),
+
+  category-data-science-border: map-get($blue, 500),
+  category-data-science-bg: map-get($blue, 100),
+
+  category-open-source-border: map-get($purple, 500),
+  category-open-source-bg: map-get($purple, 50),
+
+  category-testing-border: map-get($red, 500),
+  category-testing-bg: map-get($red, 50),
+
+  category-automation-border: map-get($blue, 300),
+  category-automation-bg: map-get($blue, 50),
+
+  category-software-engineering-border: map-get($brown, 500),
+  category-software-engineering-bg: map-get($brown, 50),
+
+  category-web-border: map-get($py-blue, 500),
+  category-web-bg: map-get($py-blue, 50),
+
+  category-database-border: map-get($slate, 500),
+  category-database-bg: map-get($slate, 100),
+
+  category-lightning_talks-border: map-get($teal, 500),
+  category-lightning_talks-bg: map-get($teal, 100),
+
+  category-keynote-border: map-get($yellow, 700),
+  category-keynote-bg: map-get($yellow, 50),
+
+  category-lunch-border: map-get($slate, 800),
+  category-lunch-bg: map-get($slate, 100),
+
+  schedule-bg: $white,
+
 );
 
 $buttons-light: (

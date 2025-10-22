@@ -99,3 +99,60 @@ other = "Register Now"
 
 [all_posts]
 other = "All posts"
+
+[schedule_friday_21]
+other = "Friday - 21"
+
+[schedule_saturday_22]
+other = "Saturday - 22"
+
+[schedule_sunday_23]
+other = "Sunday - 23"
+
+[web]
+other = "Web"
+
+[data_science]
+other = "Data Science"
+
+[automation]
+other = "Automation"
+
+[devops]
+other = "DevOps"
+
+[lightning_talks]
+other = "Lightning Talks"
+
+[workshop]
+other = "Workshop"
+
+[lunch]
+other = "Lunch"
+
+[open_source]
+other = "Open Source"
+
+[career]
+other = "Career Development"
+
+[database]
+other = "Databases"
+
+[ai]
+other = "AI and Machine Learning"
+
+[keynote]
+other = "Keynote Talk"
+
+[software_engineering]
+other = "Software Engineering"
+
+[testing]
+other = "Testing and Quality"
+
+[section_schedule_title]
+other = "Schedule"
+
+[section_schedule_description]
+other = "Check out the full schedule of talks, workshops, and activities planned for the event."

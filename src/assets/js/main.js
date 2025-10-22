@@ -12,3 +12,4 @@ import './core/mobile-menu';
 import './core/collapse';
 import './core/multi-language-helper';
 import './core/smooth-scroll';
+import './core/schedule';

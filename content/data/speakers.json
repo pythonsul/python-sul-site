@@ -1,0 +1,116 @@
+{
+    "speakers": [
+        {
+            "name": "Bernardo De Castro",
+            "bio": "Bernardo de Castro Monteiro Franco Gomes, é estudante de Ciência da Computação na Universidade Federal de São João Del Rei - atualmente estou no 1° período, porém já possuo experiência na área de computação como professor, fui monitor de curso e professor particular em uma escola de cursos chama Infinity School.",
+            "photo": "iamges/speakers/perceu.jpg",
+            "talk_title": "Criando a sua primeira análise de sentimentos utilizando técnicas NLP e LLM’s ",
+            "talk_abstract": "Aprenda a criar sua primeira análise de sentimentos em texto utilizando técnicas de PLN e LLMs. O objetivo é apresentar desde os conceitos até a a aplicação prática, passando pelo pré-processamento de texto, uso de bibliotecas e integração com LLMs para classificação e interpretação de sentimentos."
+        },
+        {
+            "name": "João Paulo Carvalho",
+            "bio": "Apaixonado por games. Entusiasta de Linux, open-source e evangelista do Python. Atualmente Engenheiro de Plataforma na Vinta Software. Participa da organização do Hackerspace Blumenau e GruPy Blumenau.",
+            "photo": "iamges/speakers/perceu.jpg",
+            "talk_title": "Automatizando servidores do Discord com Python ",
+            "talk_abstract": "Vamos aprender a usar a lib discord.py para criar bots poderosos para Discord. Vamos ver casos de uso bem populares como moderação, minigames, bots de música, até processamento de linguagem natural. Tudo usando as interfaces mais modernas da linguagem Python."
+        },
+        {
+            "name": "Felipe de Morais🤴🏾",
+            "bio": "🎉 FeliPython aqui! Premiado com PSF Fellow 🏅, Community Service Award 🏆 e Dorneles Treméa 🏵️. Uso FastAPI há 1+ ano, obcecado por testes e adoro fazer a comunidade Python crescer! 🚀🐍",
+            "photo": "iamges/speakers/perceu.jpg",
+            "talk_title": "Começando com FastAPI: construa sua primeira API em Python",
+            "talk_abstract": "Aprenda a criar sua primeira API com FastAPI! Neste tutorial para iniciantes, você vai construir uma API REST do zero usando Python de forma prática e descomplicada. 🚀."
+        },
+        {
+            "name": "Perceu Bertoletti",
+            "bio": "Desenvolvedor web(front e back) com Python, PHP, Javascript, CSS, HTML, etc. Desenvolvedor de automações com python.",
+            "photo": "iamges/speakers/perceu.jpg",
+            "talk_title": "Como programar como antigamente (blog em 30 min ou mais)",
+            "talk_abstract": "Inspirado pela famosa palestra de como fazer um blog em 30 minutos que já foi feita em diversas linguagens, vou apresentar como ainda existe espaço para desenvolvimento web clássico a ideia é usar django para desenvolver um blog rapido e como isso ainda pode e deve ser usado."
+        },
+        {
+            "name": "Gabriel Menezes",
+            "bio": "Especialista em testes e qualidade de software, com mais de 7 anos de experiência na área. Atuo na comunidade Python e fui Big kahuna da Python norte 2023, passando pela Python Brasil 2022, Python Norte Itacoatiara 2024 e Python Brasil RJ 2024. Sou apaixonado por viagens, aviação, drones e videogames.",
+            "photo": "images/speakers/helder.jpg",
+            "talk_title": "Testes Inteligentes: O Futuro da Qualidade com IA e Python ",
+            "talk_abstract": "A Inteligência Artificial vem transformando os testes de software, incluindo geração automática de cenários, priorização de casos e detecção de falhas. Esta palestra aborda como empresas de software têm utilizado IA para aprimorar seus sistemas e otimizar o processo de desenvolvimento."
+        },
+        {
+            "name": "Cristiano Larrea",
+            "bio": "Bacharel em Cientista de Dados e Inteligência Artificial pela FGV-RJ e Cientista de Dados Sênior na Globo.",
+            "photo": "images/speakers/cesar_brod.jpg",
+            "talk_title": "VigIA: funcionário virtual de Antifraude com Google ADK",
+            "talk_abstract": "Esta palestra irá abordar como o VigIA, agente de inteligência artificial desenvolvido com Google ADK e GCP, atua como um “funcionário digital” no time de antifraude da Globo. Serão apresentados os desafios do combate à fraude, a integração entre negócios e tecnologia, a arquitetura técnica do projeto."
+        },
+        {
+            "name": "Eri Bastos",
+            "bio": "Eri Bastos é Gerente Sênior em Site Reliability Engineering, especialista em infraestrutura e cloud computing com mais de 25 anos de experiência em TI. Apaixonado por Python, atua remotamente no Canadá, liderando equipes globais e impulsionando inovação tecnológica.",
+            "photo": "images/speakers/ana_silva.jpg",
+            "talk_title": "Modernizando código legado Python com auxílio de IA",
+            "talk_abstract": "A palestra mostrará como aplicar inteligência artificial para modernizar código legado em Python. Serão apresentados desafios comuns, ferramentas de IA que apoiam refatoração e análise, além de estratégias práticas para reduzir dívidas técnicas e transformar sistemas antigos em bases modernas."
+        },
+        {
+            "name": "Guilherme Garcia",
+            "bio": "Eu sou o Guilherme, também conhecido como guites! Trabalho com software a cerca de seis anos, e sou apaixonado por desenvolvimento web, acessibilidade e livre acesso ao conhecimento. Eu toco o projeto cinemaempoa.com.br junto com o time da cumbuca.dev, e estou feliz de participar da Python Sul :-)",
+            "photo": "images/speakers/lucas_ferreira.jpg",
+            "talk_title": "Do Regex a LLM: Extraindo horários de cinema de páginas imprevisíveis",
+            "talk_abstract": "Utilização de Modelos de Linguagem (LLMs) para extração de dados de um blog de cinema local em Porto Alegre que anuncia filmes e horários em posts de texto livre no Blogspot. Em vez de regex ou parsers rígidos, exploramos LLMs via APIs para criar um pipeline resiliente a mudanças de formato."
+        },
+        {
+            "name": "Nilton Pimentel",
+            "bio": "Revisor Técnico – Django 5 for the Impatient (Packt Publishing) 📘Mentor – CumbucaDev 👨‍🏫Contribuidor Open Source 🌍",
+            "photo": "images/speakers/lucas_ferreira.jpg",
+            "talk_title": "Do Regex a LLM: Extraindo horários de cinema de páginas imprevisíveis",
+            "talk_abstract": "Utilização de Modelos de Linguagem (LLMs) para extração de dados de um blog de cinema local em Porto Alegre que anuncia filmes e horários em posts de texto livre no Blogspot. Em vez de regex ou parsers rígidos, exploramos LLMs via APIs para criar um pipeline resiliente a mudanças de formato."
+        },
+        {
+            "name": "Belisa Arnhold",
+            "bio": "Backender apaixonada por dados.",
+            "photo": "images/speakers/lucas_ferreira.jpg",
+            "talk_title": "Conversando com os dados da educação brasileira",
+            "talk_abstract": "Todo ano, o INEP avalia a educação brasileira e disponibiliza os dados das pesquisas. Usando python e IA, vamos construir um chatbot que conversa com eles."
+        },
+        {
+            "name": "Gian Carlo",
+            "bio": "Sou desenvolvedor python a 8 anos, de Porto Alegre e estou sempre querendo aprender um pouco mais cada dia.",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "HTTP Server from scratch: criando seu próprio Gunicorn ",
+            "talk_abstract": "A ideia é mostrar na prática, com um livro coding, como construir um servidor HTTP minimalista do zero, em python. Vou explicar o que é wsgi, vou explorar diferentes estratégias de concorrência, como uso de threads e processos, criação de sockets e discutir formas básicas de monitoramento."
+        },
+        {
+            "name": "Glória Barboza",
+            "bio": "Pós-graduada em Engenharia de Software, Data Science e IA, com MBA em Gestão Estratégica de Pessoas. Atuo há mais de oito anos na interseção entre pessoas, tecnologia e negócios [nem sempre nessa ordem]. Sou entusiasta de comunidades tech, conectando e desenvolvendo pessoas, além de compartilhar conhecimento e cultura.",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "Do Caos ao Código: Pensamento Computacional Aplicado à Regra de Negócio em Python.",
+            "talk_abstract": "Como transformar regras de negócio vagas em soluções claras em Python. Exploraremos pensamento computacional, decomposição de requisitos e exemplos práticos, aproximando times técnicos e não técnicos para reduzir ruídos, retrabalhos e atrasos."
+        },
+        {
+            "name": "Maria Antônia Maia",
+            "bio": "Cofundadora da Cumbuca Dev, empreendedora social na área de TI e entusiasta do Open Source. Teve a vida transformada pela tecnologia e hoje apoia novos talentos, acreditando no potencial do código aberto como ferramenta de inclusão e inovação. Pessoas > Tecnologia 💜",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "Cumbuca Dev: Fortalecendo o Open Source no Brasil.",
+            "talk_abstract": "Descubra como a Cumbuca Dev fortalece a comunidade Open Source no Brasil, promovendo inclusão, aprendizado e experiências reais para todas as pessoas interessadas em contribuir."
+        },
+        {
+            "name": "Douglas Medeiros",
+            "bio": "Engenheiro de Software Sênior no PicPay, onde atuo como Tech Lead e PHP Skill Lead, com foco em alta performance, escalabilidade e sistemas que lidam com bilhões de registros. Criador de conteúdo tech, ativo na comunidade, palestrante e consultor técnico para times que buscam mais eficiência e qualidade nas entregas.",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "Nem Só de Código Vive o Dev",
+            "talk_abstract": "O que realmente faz um dev crescer na carreira? Não, não é só saber codar bem. Nesta talk, conto como levei um choque de realidade ao descobrir que comunicação é tão essencial quanto técnica. Se você acha que \"o código fala por si\", talvez esteja perdendo a parte mais importante do jogo."
+        },
+        {
+            "name": "Vilson Blanco Dauinheimer (Bwolf)",
+            "bio": "Vilson Blanco Dauinheimer(Bwolf) é desenvolvedor Flutter, organizador do GDG Caxias do Sul e da Flutter Meetup Network, além de mentor no Google for Startups. Atua em projetos internacionais e comunidades de tecnologia, compartilhando aprendizados sobre carreira e desenvolvimento.",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "Abrindo Porteiras",
+            "talk_abstract": "Abrir porteiras é enfrentar medos e atravessar fronteiras. Nesta palestra compartilho como enfrentei o medo de trabalhar fora do país, superei barreiras de idioma e cultura e transformei a experiência internacional em evolução profissional."
+        },
+        {
+            "name": "Rodrigo Bastos Vieira",
+            "bio": "Desenvolvendo web desde 2001, e programando em Python e Django desde 2022. Atualmente é desenvolvedor sênior e Tech Lead na Vinta Software, de Recife.",
+            "photo": "images/speakers/tba.jpg",
+            "talk_title": "Otimize suas consultas: Evitando armadilhas comuns em ORMs Python",
+            "talk_abstract": "Nesta palestra, vamos mostrar como identificar e corrigir um dos problemas de performance mais comuns e escondidos em ORMs Python: o famoso N+1 queries. A partir de exemplos práticos, você vai entender por que ele ocorre, como detectá‑lo e, principalmente, como evitá‑los."
+        }
+    ]
+}
