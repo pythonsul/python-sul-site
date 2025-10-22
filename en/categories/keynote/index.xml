@@ -23,26 +23,39 @@
  
  
  
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
  
 
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
- 
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_8839d200448ebbbd.webp" type="image/webp" media="(min-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9e0b5eda0d17bf96.webp" type="image/webp" media="(max-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_3e6d67c965703fce.webp" type="image/webp" media="(max-width: 800px)">
+
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
+
  
  &lt;img
  src="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg"
  alt="Felipe de Morais"
  width="1400"
  height="933"
+ sizes="(min-width: 1024px) 1400px, (min-width: 800px) 1000px, 600px"
  loading="lazy"
  decoding="async"
  />
  &lt;/picture>
+
  
  
  &lt;figcaption>CC: Felipe de Morais&lt;/figcaption>
@@ -52,13 +65,7 @@
 
 
 &lt;hr>
-&lt;p>Recognized for his inspiring journey and remarkable contributions to the Python community, Felipe is a reference when it comes to web frameworks, community building, and inclusion. And it’s no surprise, he has earned several awards for his impact, including:&lt;/p>
-&lt;ul>
-&lt;li>Dornelles Trémea Award (APyB)&lt;/li>
-&lt;li>Community Service Award (PSF)&lt;/li>
-&lt;li>PSF Fellow 2025/Q1&lt;/li>
-&lt;/ul>
-&lt;p>Co-founder of &lt;strong>AfroPython&lt;/strong>, Felipe is a passionate advocate for diversity and inclusion in technology, creating opportunities for underrepresented groups. He is also a teacher, speaker, and known affectionately in the community as &lt;strong>FeliPython&lt;/strong>, a nickname that reflects his long-standing dedication to the Python ecosystem.&lt;/p></description></item><item><title>Cesar Brod: keynote confirmed at Python Sul 2025</title><link>https://sul.python.org.br/en/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/en/keynote-cesar-brod/</guid><description>&lt;p>Hey folks! We’re thrilled to announce the &lt;strong>third confirmed keynote&lt;/strong> for Python Sul 2025: &lt;strong>Cesar Brod!&lt;/strong>&lt;/p>
+&lt;p>Recognized for his inspiring journey and remarkable contributions to the Python community, Felipe is a reference when it comes to web frameworks, community building, and inclusion. And it’s no surprise, he has earned several awards for his impact, including:&lt;/p></description></item><item><title>Cesar Brod: keynote confirmed at Python Sul 2025</title><link>https://sul.python.org.br/en/keynote-cesar-brod/</link><pubDate>Fri, 26 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/en/keynote-cesar-brod/</guid><description>&lt;p>Hey folks! We’re thrilled to announce the &lt;strong>third confirmed keynote&lt;/strong> for Python Sul 2025: &lt;strong>Cesar Brod!&lt;/strong>&lt;/p>
 &lt;p>Cesar brings together technical expertise, passion for open source, and a deep commitment to community. Grab your mate, because stories and inspiration are on the way!&lt;/p>
 &lt;p>He’s a grandfather, nerd, writer, and CTO at Quaza Tecnologia. Cesar has been working in IT since 1982, with much of his professional background developed in the &lt;strong>United States, Canada, and France&lt;/strong>. He started working with &lt;strong>Linux in 1993&lt;/strong> and, since 1997, through &lt;strong>BrodTec&lt;/strong>, has provided consulting services, project management, and business models built on open source software.&lt;/p></description></item><item><title>Hisham H. Muhammad: keynote confirmed at Python Sul 2025</title><link>https://sul.python.org.br/en/keynote-hisham-hm-free-software/</link><pubDate>Tue, 16 Sep 2025 19:00:00 +0000</pubDate><guid>https://sul.python.org.br/en/keynote-hisham-hm-free-software/</guid><description>&lt;p>Hey folks! Another big name is confirmed as a keynote speaker at Python Sul
 2025!&lt;/p>
@@ -96,26 +103,39 @@ directory structure.&lt;/p></description></item><item><title>Bruna Ferreira (bug
  
  
  
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
  
 
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg" type="image/jpeg" media="(min-width: 1024px)">
- 
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_82e66dbfd5e68527.webp" type="image/webp" media="(min-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_5642f3249e180fa5.webp" type="image/webp" media="(max-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_8bf0abb31ae05348.webp" type="image/webp" media="(max-width: 800px)">
+
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg" type="image/jpeg" media="(min-width: 1024px)">
+
  
  &lt;img
  src="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg"
  alt="Bruna at the 2024 Edition"
  width="1400"
  height="934"
+ sizes="(min-width: 1024px) 1400px, (min-width: 800px) 1000px, 600px"
  loading="lazy"
  decoding="async"
  />
  &lt;/picture>
+
  
  
  &lt;figcaption>CC: Bruna at the 2024 Edition&lt;/figcaption>

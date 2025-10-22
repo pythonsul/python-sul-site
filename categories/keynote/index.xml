@@ -23,26 +23,39 @@
  
  
  
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
  
 
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
- 
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_8839d200448ebbbd.webp" type="image/webp" media="(min-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9e0b5eda0d17bf96.webp" type="image/webp" media="(max-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_3e6d67c965703fce.webp" type="image/webp" media="(max-width: 800px)">
+
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg" type="image/jpeg" media="(min-width: 1024px)">
+
  
  &lt;img
  src="https://sul.python.org.br/images/posts/felipedemorais/felipe-de-morais-cover_hu_9f400d159070ccbd.jpg"
  alt="Felipe de Morais"
  width="1400"
  height="933"
+ sizes="(min-width: 1024px) 1400px, (min-width: 800px) 1000px, 600px"
  loading="lazy"
  decoding="async"
  />
  &lt;/picture>
+
  
  
  &lt;figcaption>CC: Felipe de Morais&lt;/figcaption>
@@ -88,26 +101,39 @@ sistema operacional.&lt;/p></description></item><item><title>Bruna Ferreira (bug
  
  
  
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
  
 
  &lt;figure class="">
  &lt;picture>
  
- &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg" type="image/jpeg" media="(min-width: 1024px)">
- 
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_82e66dbfd5e68527.webp" type="image/webp" media="(min-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_5642f3249e180fa5.webp" type="image/webp" media="(max-width: 1024px)">
  &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_8bf0abb31ae05348.webp" type="image/webp" media="(max-width: 800px)">
+
+ 
+ &lt;source srcset="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg" type="image/jpeg" media="(min-width: 1024px)">
+
  
  &lt;img
  src="https://sul.python.org.br/images/posts/bugelseif/2024_hu_582edc60030bfa9f.jpg"
  alt="Bruna na Edição de 2024"
  width="1400"
  height="934"
+ sizes="(min-width: 1024px) 1400px, (min-width: 800px) 1000px, 600px"
  loading="lazy"
  decoding="async"
  />
  &lt;/picture>
+
  
  
  &lt;figcaption>CC: Bruna na Edição de 2024&lt;/figcaption>
