@@ -10,7 +10,7 @@ weight = 2
 
 [[main]]
 name = "Charlas"
-url = "#buy-a-ticket"
+url = "#schedule"
 weight = 3
 
 [[main]]

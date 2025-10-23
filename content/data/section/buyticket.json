@@ -1,13 +1,13 @@
 [
   {
     "language": "pt-br",
-    "badge": "Grade de palestras em breve",
-    "title": "Enquanto finalizamos a programação, garanta seu ingresso",
-    "description": "Estamos cuidando de cada detalhe da grade com conteúdos que inspiram, informam e acolhem a comunidade Python. Assim que tudo estiver confirmado, avisaremos por aqui e nas redes sociais.",
-    "helper": "Ao comprar um ingresso você ajuda a viabilizar a PySul 2025 e mantém o evento acessível para toda a comunidade.",
+    "badge": "Grade de palestras disponível",
+    "title": "Confira a programação completa e garanta seu ingresso",
+    "description": "A programação da PySul 2025 já está disponível! Cada palestra foi escolhida para inspirar, informar e fortalecer a comunidade Python. Veja os horários e prepare-se para participar.",
+    "helper": "Ao comprar um ingresso você apoia a realização da PySul 2025 e ajuda a manter o evento acessível para toda a comunidade.",
     "schedule": {
       "title": "Programação",
-      "description": "Publicaremos a grade completa em breve. <br>Acesse o grupo no WhatsApp e Telegram ou companhe o Instagram para ser avisado em primeira mão."
+      "description": "Confira a lista completa de palestras e horários. <br>Entre no grupo no WhatsApp ou Telegram e siga o Instagram para acompanhar as próximas novidades."
     },
     "cta": {
       "label": "Comprar ingresso",
@@ -35,13 +35,13 @@
   },
   {
     "language": "en",
-    "badge": "Talk schedule coming soon",
-    "title": "While we finalize the program, secure your ticket",
-    "description": "We’re taking care of every detail of the schedule, with content that inspires, informs, and embraces the Python community. Once everything is confirmed, we’ll announce it here and on social media.",
-    "helper": "By purchasing a ticket, you help make PySul 2025 possible and keep the event accessible for the entire community.",
+    "badge": "Talk schedule available",
+    "title": "Check out the full schedule and secure your ticket",
+    "description": "The PySul 2025 program is now live! Each talk was carefully selected to inspire, inform, and strengthen the Python community. Explore the schedule and get ready to join us.",
+    "helper": "By purchasing a ticket, you support PySul 2025 and help keep the event accessible for the entire community.",
     "schedule": {
       "title": "Schedule",
-      "description": "The full agenda will be published soon. <br>Join our WhatsApp and Telegram groups or follow us on Instagram to be notified first."
+      "description": "View the complete list of talks and times. <br>Join our WhatsApp or Telegram groups and follow us on Instagram for the latest updates."
     },
     "cta": {
       "label": "Buy ticket",
@@ -69,13 +69,13 @@
   },
   {
     "language": "es",
-    "badge": "Agenda de charlas próximamente",
-    "title": "Mientras terminamos la programación, asegurá tu entrada",
-    "description": "Estamos cuidando cada detalle del cronograma con contenidos que inspiran, informan y fortalecen a la comunidad Python. Apenas todo esté confirmado, lo anunciaremos por acá y en las redes sociales.",
-    "helper": "Al comprar una entrada ayudás a hacer posible la PySul 2025 y mantenés el evento accesible para toda la comunidad.",
+    "badge": "Agenda de charlas disponible",
+    "title": "Consultá la programación completa y asegurá tu entrada",
+    "description": "La programación de PySul 2025 ya está disponible. Cada charla fue seleccionada para inspirar, informar y fortalecer a la comunidad Python. Revisá los horarios y preparate para participar.",
+    "helper": "Al comprar una entrada apoyás la realización de PySul 2025 y ayudás a mantener el evento accesible para toda la comunidad.",
     "schedule": {
       "title": "Programación",
-      "description": "Publicaremos la agenda completa muy pronto. <br>Unite al grupo de WhatsApp o Telegram, o seguí el Instagram para enterarte antes que nadie."
+      "description": "Consultá la lista completa de charlas y horarios. <br>Unite al grupo de WhatsApp o Telegram y seguí el Instagram para enterarte de las próximas novedades."
     },
     "cta": {
       "label": "Comprar entrada",
