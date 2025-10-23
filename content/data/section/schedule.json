@@ -6,10 +6,10 @@
                 "start": "09:00",
                 "end": "12:00",
                 "duration": "3h",
-                "title": "Estamos trabalhando nisso.",
+                "title": "Ciclo de desenvolvimento de automações com Python e BotCity.",
                 "speaker": {
-                    "name": "Em breve",
-                    "photo": "images/speakers/tba.jpg"
+                    "name": "Bruna Ferreira",
+                    "photo": "images/keynotes/bruna-ferreira.png"
                 },
                 "category": "web",
                 "type": "workshop"
