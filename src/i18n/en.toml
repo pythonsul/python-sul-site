@@ -156,3 +156,9 @@ other = "Schedule"
 
 [section_schedule_description]
 other = "Check out the full schedule of talks, workshops, and activities planned for the event."
+
+[section_speakers_title]
+other = "Speakers"
+
+[section_speakers_description]
+other = "Meet the speakers who will share their knowledge and experiences during the event." 

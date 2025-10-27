@@ -156,3 +156,10 @@ other = "Programação"
 
 [section_schedule_description]
 other = "Confira a programação completa do evento, incluindo palestras, workshops e atividades especiais planejadas para cada dia."
+
+
+[section_speakers_title]
+other = "Palestrantes"
+
+[section_speakers_description]
+other = "Conheça os palestrantes que compartilharão seus conhecimentos e experiências durante o evento."

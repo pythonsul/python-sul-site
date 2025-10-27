@@ -155,3 +155,9 @@ other = "Agenda"
 
 [section_schedule_description]
 other = "Consulta la agenda completa del evento, incluyendo charlas, talleres y actividades especiales para cada día."
+
+[section_speakers_title]
+other = "Oradores"
+
+[section_speakers_description]
+other = "Conoce a los oradores que compartirán sus conocimientos y experiencias durante el evento."
