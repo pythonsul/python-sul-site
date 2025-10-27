@@ -9,7 +9,7 @@
                 "title": "Ciclo de desenvolvimento de automações com Python e BotCity.",
                 "speaker": {
                     "name": "Bruna Ferreira",
-                    "photo": "images/keynotes/bruna-ferreira.png"
+                    "photo": "images/keynotes/bruna-ferreira.jpg"
                 },
                 "category": "web",
                 "type": "workshop"
@@ -17,7 +17,7 @@
             {
                 "start": "09:00",
                 "end": "12:00",
-                "duration": "40m",
+                "duration": "3h",
                 "title": "Criando a sua primeira análise de sentimentos utilizando técnicas NLP e LLM’s ",
                 "speaker": {
                     "name": "Bernardo De Castro",
@@ -170,7 +170,7 @@
                 "title": "Keynote de Encerramento",
                 "speaker": {
                     "name": "Bruna Ferreira (bug_elseif)",
-                    "photo": "images/keynotes/bruna-ferreira.png"
+                    "photo": "images/keynotes/bruna-ferreira.jpg"
                 },
                 "category": "keynote"
             }

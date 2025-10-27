@@ -103,7 +103,7 @@ install:
 			mv hugo.exe "$(BIN_DIR)/hugo.exe"; \
 			echo "✅ Moved hugo.exe to $(BIN_DIR). Ensure it's in your PATH."; \
 		else \
-			sudo mkdir -p "$(BIN_DIR)"; \
+			mkdir -p "$(BIN_DIR)"; \
 			mv hugo "$(BIN_DIR)/hugo"; \
 			echo "✅ Moved hugo to $(BIN_DIR). Ensure $(BIN_DIR) is in your PATH."; \
 		fi; \
@@ -128,7 +128,7 @@ update: check-env
 			if [ "$(PLATFORM)" = "windows" ]; then \
 				del "$(HUGO_BIN)" || echo "Failed to remove Hugo executable. Please remove manually."; \
 			else \
-				sudo rm -f "$(HUGO_BIN)" || echo "Failed to remove Hugo executable. Please remove manually."; \
+				rm -f "$(HUGO_BIN)" || echo "Failed to remove Hugo executable. Please remove manually."; \
 			fi; \
 			$(MAKE) install; \
 		fi; \
