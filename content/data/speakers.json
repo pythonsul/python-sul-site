@@ -87,13 +87,14 @@
     },
     {
         "name": "Eri Bastos",
-        "title": "Senior Site Reliability Engineering Manager @ Kinvolk",
+        "title": "Senior Site Reliability Engineering Manager @ Guidewire",
         "bio": "Gerente Sênior em Site Reliability Engineering, especialista em infraestrutura e cloud computing com mais de 25 anos de experiência em TI. Apaixonado por Python, atua remotamente no Canadá, liderando equipes globais e impulsionando inovação tecnológica.",
         "photo": "images/speakers/eri-bastos.jpg",
         "talk_title": "Modernizando código legado Python com auxílio de IA",
         "talk_abstract": "A palestra mostrará como aplicar inteligência artificial para modernizar código legado em Python. Serão apresentados desafios comuns, ferramentas de IA que apoiam refatoração e análise, além de estratégias práticas para reduzir dívidas técnicas e transformar sistemas antigos em bases modernas.",
         "external_links": {
-            "site": "https://ebastos.dev/"
+            "site": "https://ebastos.dev/",
+	    "linkedin": "https://www.linkedin.com/in/eribastos/"
         }
     },
     {
@@ -142,13 +143,13 @@
     },
     {
         "name": "Glória Barboza",
-        "title": "Engenheira de Software | Tech Lead | Mentora | Palestrante",
+        "title": "IT Support Analyst no JOTA.Info | Coorg. na Python Floripa",
         "bio": "Pós-graduada em Engenharia de Software, Data Science e IA, com MBA em Gestão Estratégica de Pessoas. Atuo há mais de oito anos na interseção entre pessoas, tecnologia e negócios [nem sempre nessa ordem]. Sou entusiasta de comunidades tech, conectando e desenvolvendo pessoas, além de compartilhar conhecimento e cultura.",
-        "photo": "images/speakers/gloria-barboza.jpg",
+        "photo": "images/speakers/gloria-barboza.png",
         "talk_title": "Do Caos ao Código: Pensamento Computacional Aplicado à Regra de Negócio em Python.",
         "talk_abstract": "Como transformar regras de negócio vagas em soluções claras em Python. Exploraremos pensamento computacional, decomposição de requisitos e exemplos práticos, aproximando times técnicos e não técnicos para reduzir ruídos, retrabalhos e atrasos.",
         "external_links": {
-            "linkedin": "https://www.linkedin.com/in/gl%C3%B3ria-r-barboza-84b482378/"
+            "linkedin": "https://www.linkedin.com/in/labarboza/"
         }
     },
     {
