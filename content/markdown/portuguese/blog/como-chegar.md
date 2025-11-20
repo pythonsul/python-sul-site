@@ -4,7 +4,6 @@ description = ""
 date = 2025-11-20T09:00:00Z
 author = "Julio Biason"
 categories = ["mapa"]
-image = "images/posts/mapa.png"
 draft = false
 url = "como-chegar"
 +++
@@ -51,6 +50,6 @@ De transporte público:
 ## Estacionamento da PUC:
 
 **ATENÇÃO**: Não tem parceria com o evento, seguirá a tabela normal de preços.
-[Confira no site os valores](https://portal.pucrs.br/sobre-a-pucrs/campus/#estacionamento).
+[Confira no site os valores](https://portal.pucrs.br/sobre-a-pucrs/campus/#estacionamento)
 
 
