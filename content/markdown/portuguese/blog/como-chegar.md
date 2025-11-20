@@ -4,6 +4,7 @@ description = ""
 date = 2025-11-20T09:00:00Z
 author = "Julio Biason"
 categories = ["mapa"]
+image = "images/posts/mapa.jpg"
 draft = false
 url = "como-chegar"
 +++
